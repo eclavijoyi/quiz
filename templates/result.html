@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Resultados - Simulacro de Examen</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+      }
+      .result {
+        font-size: 1.2em;
+        margin-top: 20px;
+      }
+      .error-list {
+        margin-top: 20px;
+      }
+      .error-item {
+        margin-bottom: 15px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Resultados del Examen</h1>
+    <div class="result">
+      <p><strong>Puntaje obtenido:</strong> {{ score }}/{{ total }}</p>
+      {% if passed %}
+      <p style="color: green">¡Felicidades, has aprobado!</p>
+      {% else %}
+      <p style="color: red">Lo sentimos, no has aprobado.</p>
+      {% endif %}
+    </div>
+    {% if errors %}
+    <div class="error-list">
+      <h2>Preguntas contestadas erróneamente:</h2>
+      <ul>
+        {% for error in errors %}
+        <li class="error-item">
+          <strong>Pregunta {{ error.number }}:</strong> {{ error.question }}<br />
+          <em>Respuesta correcta:</em> ({{ error.correct_answer_key | upper }})
+          {{ error.correct_answer_text }}
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+    {% endif %}
+  </body>
+</html>

@@ -2,18 +2,18 @@ from flask import Flask, render_template, request, redirect, url_for, session
 import time
 
 app = Flask(__name__)
-app.secret_key = "clave-secreta-para-sessions"  # Cambia esto por seguridad
+app.secret_key = "clave-secreta-para-sessions"  # Cambia esto por una clave segura
 
 # ---------------------------------------------------------------------
-# Definición de las 100 preguntas en una lista de diccionarios.
+# Definición de las preguntas en una lista de diccionarios.
 # Cada diccionario contiene:
-#  - 'number': número de pregunta
-#  - 'question': el enunciado
-#  - 'options': un diccionario con las opciones (a, b, c, d)
-#  - 'correct': la respuesta correcta ("a", "b", "c" o "d")
+#   - "number": número de pregunta
+#   - "question": enunciado de la pregunta
+#   - "options": diccionario con las opciones ("a", "b", "c", "d")
+#   - "correct": respuesta correcta ("a", "b", "c" o "d")
 #
 # IMPORTANTE:
-#  - Reemplaza las respuestas de ejemplo por las correctas según tu clave.
+#   - Aquí se muestran 5 preguntas de ejemplo. Deberás completar hasta las 100.
 # ---------------------------------------------------------------------
 
 questions = [
@@ -70,58 +70,77 @@ questions = [
             "c": "La representación del propietario",
             "d": "La supervisión y mantenimiento de la propiedad"
         },
-        "correct": "c"  # Observa que es la misma que la #1 en el PDF
+        "correct": "c"  # Ajusta según la clave real
     },
     # ---------------------------------------------------------------------
-    # Continúa aquí con el resto de las preguntas hasta llegar a las 100.
+    # Continúa aquí con el resto de las preguntas hasta llegar a 100.
     # ---------------------------------------------------------------------
 ]
 
-# Parámetros de configuración
 TOTAL_QUESTIONS = len(questions)
-PASSING_SCORE = 75  # Se requiere al menos 75 puntos para aprobar
-EXAM_DURATION_SECONDS = 3 * 60 * 60 + 30 * 60  # 3 horas 30 minutos en segundos
+PASSING_SCORE = 75  # Se requieren al menos 75 puntos para aprobar
+EXAM_DURATION_SECONDS = 3 * 60 * 60 + 30 * 60  # 3 horas 30 minutos
 
-@app.route("/", methods=["GET", "POST"])
-def exam():
+@app.route("/")
+def index():
+    # Inicia el examen: limpia la sesión, registra el tiempo de inicio y crea el diccionario de respuestas.
+    session.clear()
+    session["start_time"] = time.time()
+    session["answers"] = {}
+    return redirect(url_for("question", qnum=1))
+
+@app.route("/question/<int:qnum>", methods=["GET", "POST"])
+def question(qnum):
+    # Verificar si el tiempo del examen expiró.
+    elapsed = time.time() - session.get("start_time", time.time())
+    remaining = EXAM_DURATION_SECONDS - elapsed
+    if remaining <= 0:
+        return redirect(url_for("result"))
+    
+    # Procesa la respuesta enviada para la pregunta actual.
     if request.method == "POST":
-        # Recoger las respuestas del usuario
-        user_answers = {}
-        for q in questions:
-            q_number = str(q["number"])
-            user_answers[q_number] = request.form.get(q_number, None)
+        answer = request.form.get("answer")
+        answers = session.get("answers", {})
+        answers[str(qnum)] = answer
+        session["answers"] = answers
+        if qnum < TOTAL_QUESTIONS:
+            return redirect(url_for("question", qnum=qnum + 1))
+        else:
+            return redirect(url_for("result"))
+    
+    # Obtener la pregunta actual.
+    current_question = next((q for q in questions if q["number"] == qnum), None)
+    if current_question is None:
+        return "Pregunta no encontrada", 404
 
-        # Calcular el puntaje y recopilar los errores
-        score = 0
-        errors = []
-        for q in questions:
-            q_num = str(q["number"])
-            if user_answers[q_num] == q["correct"]:
-                score += 1
-            else:
-                errors.append({
-                    "number": q["number"],
-                    "question": q["question"],
-                    "correct_answer_key": q["correct"],
-                    "correct_answer_text": q["options"][q["correct"]]
-                })
-
-        passed = (score >= PASSING_SCORE)
-
-        return render_template("exam.html",
-                               submitted=True,
-                               score=score,
-                               total=TOTAL_QUESTIONS,
-                               passed=passed,
-                               questions=questions,
-                               user_answers=user_answers,
-                               errors=errors)
-
-    # Muestra el formulario si es GET
-    return render_template("exam.html",
-                           submitted=False,
-                           questions=questions,
+    return render_template("question.html",
+                           question=current_question,
+                           remaining=int(remaining),
                            total=TOTAL_QUESTIONS)
+
+@app.route("/result")
+def result():
+    answers = session.get("answers", {})
+    score = 0
+    errors = []
+    for q in questions:
+        q_num = str(q["number"])
+        user_ans = answers.get(q_num, None)
+        if user_ans == q["correct"]:
+            score += 1
+        else:
+            errors.append({
+                "number": q["number"],
+                "question": q["question"],
+                "correct_answer_key": q["correct"],
+                "correct_answer_text": q["options"][q["correct"]]
+            })
+    passed = (score >= PASSING_SCORE)
+    return render_template("result.html",
+                           score=score,
+                           total=TOTAL_QUESTIONS,
+                           passed=passed,
+                           errors=errors)
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000, debug=True)
