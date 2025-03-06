@@ -17,11 +17,21 @@
       .question {
         margin-bottom: 20px;
       }
+      .info {
+        margin-bottom: 20px;
+      }
     </style>
   </head>
   <body>
     <h1>Simulacro de Examen</h1>
     <div class="timer">Tiempo restante: <span id="timer"></span></div>
+    <div class="info">
+      <p>Preguntas restantes: {{ remaining_count }}</p>
+      <!-- Botón para activar el modo aleatorio -->
+      <a href="{{ url_for('randomize') }}"
+        ><button type="button">Activar Modo Aleatorio</button></a
+      >
+    </div>
     <div class="question">
       <p>
         <strong>Pregunta {{ question.number }}:</strong> {{ question.question }}
@@ -41,17 +51,13 @@
       </form>
     </div>
     <script>
-      // Inicializa el timer usando el valor "remaining" pasado desde el servidor.
       let remaining = {{ remaining }};
       let timerDisplay = document.getElementById('timer');
       function formatTime(seconds) {
         let hrs = Math.floor(seconds / 3600);
         let mins = Math.floor((seconds % 3600) / 60);
         let secs = seconds % 60;
-        let hrsStr = hrs < 10 ? "0" + hrs : hrs;
-        let minsStr = mins < 10 ? "0" + mins : mins;
-        let secsStr = secs < 10 ? "0" + secs : secs;
-        return hrsStr + ":" + minsStr + ":" + secsStr;
+        return (hrs < 10 ? "0" + hrs : hrs) + ":" + (mins < 10 ? "0" + mins : mins) + ":" + (secs < 10 ? "0" + secs : secs);
       }
       timerDisplay.textContent = formatTime(remaining);
       let countdown = setInterval(function(){
@@ -59,8 +65,7 @@
         timerDisplay.textContent = formatTime(remaining);
         if (remaining <= 0) {
           clearInterval(countdown);
-          // Si el tiempo se agota, redirige a la página de resultados.
-          window.location.href = "{{ url_for('result') }}";
+          document.getElementById('questionForm').submit();
         }
       }, 1000);
     </script>
