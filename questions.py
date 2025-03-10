@@ -8,7 +8,7 @@ questions = [
       "c": "El vendedor debe pagar por los puntos de descuento",
       "d": "El prestatario puede pre pagar el préstamo VA antes de la fecha de vencimiento sin penalidad."
     },
-    "correct": ""
+    "correct": "c"
   },
   {
     "number": 2,
@@ -19,7 +19,7 @@ questions = [
       "c": "Da en prenda/ empeña/ pignora(pledges) la propiedad como garantía por el préstamo.",
       "d": "Crea una tenencia en común con el prestamista(lender)."
     },
-    "correct": ""
+    "correct": "a"
   },
   {
     "number": 3,
@@ -30,7 +30,7 @@ questions = [
       "c": "Avisar a la FREC de lo sucedido",
       "d": "Pedir al fondo de recuperación de bienes raíces una indemnización"
     },
-    "correct": ""
+    "correct": "b"
   },
   {
     "number": 4,
@@ -41,7 +41,7 @@ questions = [
       "c": "El valor del préstamo(loan amount)",
       "d": "El precio de venta(sale price)."
     },
-    "correct": ""
+    "correct": "c"
   },
   {
     "number": 5,
@@ -52,7 +52,7 @@ questions = [
       "c": "Título(title).",
       "d": "Fianza."
     },
-    "correct": ""
+    "correct": "b"
   },
   {
     "number": 6,
@@ -63,7 +63,7 @@ questions = [
       "c": "Prestamista(Lender)",
       "d": "Deudor."
     },
-    "correct": ""
+    "correct": "c"
   },
   {
     "number": 7,
@@ -74,7 +74,7 @@ questions = [
       "c": "El prestatario(borrower)",
       "d": "El acreedor."
     },
-    "correct": ""
+    "correct": "c"
   },
   {
     "number": 8,
@@ -85,7 +85,7 @@ questions = [
       "c": "Hipoteca(Mortgage)",
       "d": "Notario"
     },
-    "correct": ""
+    "correct": "b"
   },
   {
     "number": 9,
@@ -96,7 +96,7 @@ questions = [
       "c": "Hipoteca de tasa ajustable(Adjustable Rate Mortgage)",
       "d": "Hipoteca que Garantiza el Dinero en la Compra(Purchase money Mortgage)"
     },
-    "correct": ""
+    "correct": "d"
   },
   {
     "number": 10,
@@ -107,7 +107,7 @@ questions = [
       "c": "Cada mes el pago mensual se incrementa y el saldo del préstamo disminuye.",
       "d": "Con cada pago mensual el interés aumenta y el saldo disminuye."
     },
-    "correct": ""
+    "correct": "a"
   },
   {
     "number": 11,
@@ -118,7 +118,7 @@ questions = [
       "c": "El interés.",
       "d": "El capital y el interés."
     },
-    "correct": ""
+    "correct": "b"
   },
   {
     "number": 12,
@@ -129,7 +129,7 @@ questions = [
       "c": "+ 5,796",
       "d": "– 5,796"
     },
-    "correct": ""
+    "correct": "c"
   },
   {
     "number": 13,
@@ -140,7 +140,7 @@ questions = [
       "c": "La cláusula de conocimiento(cognovit clause)",
       "d": "La cláusula de subordinación(subordination clause)."
     },
-    "correct": ""
+    "correct": "b"
   },
   {
     "number": 14,
@@ -151,7 +151,7 @@ questions = [
       "c": "Contrato de compraventa",
       "d": "Escritura"
     },
-    "correct": ""
+    "correct": "a"
   },
   {
     "number": 15,
@@ -162,7 +162,7 @@ questions = [
       "c": "Multiplicando el índice más el margen.",
       "d": "Dividiendo el índice más el margen."
     },
-    "correct": ""
+    "correct": "b"
   },
   {
     "number": 16,
@@ -173,7 +173,7 @@ questions = [
       "c": "Título(Title theory).",
       "d": "De la registración de la escritura"
     },
-    "correct": ""
+    "correct": "c"
   },
   {
     "number": 17,
@@ -184,7 +184,7 @@ questions = [
       "c": "Aplicación.",
       "d": "Negociación"
     },
-    "correct": ""
+    "correct": "a"
   },
   {
     "number": 18,
@@ -195,7 +195,7 @@ questions = [
       "c": "Para saber en qué vecindario quiere vivir.",
       "d": "Para cumplir con el estatuto de fraudes."
     },
-    "correct": ""
+    "correct": "b"
   },
   {
     "number": 19,
@@ -206,7 +206,7 @@ questions = [
       "c": "El prestamista tiene el título.",
       "d": "El prestamista tiene los derechos de posesión."
     },
-    "correct": ""
+    "correct": "a"
   },
   {
     "number": 20,
@@ -217,7 +217,7 @@ questions = [
       "c": "El préstamo que el vendedor le hace al comprador para completar la cuota inicial o para financiar parte del precio de la propiedad.",
       "d": "Comprar una propiedad hipotecada."
     },
-    "correct": ""
+    "correct": "c"
   },
   {
     "number": 21,
@@ -228,7 +228,7 @@ questions = [
       "c": "Propiedad personal especificada",
       "d": "Seguro e impuestos a la propiedad incluido en el pago mensual"
     },
-    "correct": ""
+    "correct": "c"
   },
   {
     "number": 22,
@@ -239,7 +239,7 @@ questions = [
       "c": "El préstamo FHA fija límites de préstamos de acuerdo a la ciudad.",
       "d": "El préstamo FHA permite sumar los costos del cierre al monto a financiar."
     },
-    "correct": ""
+    "correct": "b"
   },
   {
     "number": 23,
@@ -250,7 +250,7 @@ questions = [
       "c": "Son emitidos por instituciones privadas(bancos, mutuales, etc.).",
       "d": "Fijan un máximo monto de préstamo."
     },
-    "correct": ""
+    "correct": "c"
   },
   {
     "number": 24,
@@ -261,7 +261,7 @@ questions = [
       "c": "Tener un certificado de elegibilidad",
       "d": "Comprar una vivienda que será ocupada por el veterano"
     },
-    "correct": ""
+    "correct": "b"
   },
   {
     "number": 25,
@@ -272,7 +272,7 @@ questions = [
       "c": "Teoría del Título(Title theory).",
       "d": "Ninguna de las anteriores."
     },
-    "correct": ""
+    "correct": "c"
   },
   {
     "number": 26,
@@ -283,7 +283,7 @@ questions = [
       "c": "Si es que la propiedad puede liberarse de esa hipoteca en cualquier momento después de cierre de la transacción.",
       "d": "Si es que la propiedad puede liberarse de esa hipoteca antes de la venta y por un monto menor al de la venta."
     },
-    "correct": ""
+    "correct": "d"
   },
   {
     "number": 27,
@@ -294,7 +294,7 @@ questions = [
       "c": "Que el prestamista es el dueño de la propiedad.",
       "d": "Es un término que se usa en la publicidad fraudulenta."
     },
-    "correct": ""
+    "correct": "b"
   },
   {
     "number": 28,
@@ -305,7 +305,7 @@ questions = [
       "c": "Hipoteca a termino",
       "d": "Hipoteca que garantiza el dinero en la compra(purchase money mortgage)."
     },
-    "correct": ""
+    "correct": "a"
   },
   {
     "number": 29,
@@ -316,7 +316,7 @@ questions = [
       "c": "El contrato de compraventa",
       "d": "La escritura"
     },
-    "correct": ""
+    "correct": "a"
   },
   {
     "number": 30,
@@ -327,7 +327,7 @@ questions = [
       "c": "porque no necesitan garantía de propiedad",
       "d": "porque están respaldados por el condado"
     },
-    "correct": ""
+    "correct": "a"
   },
   {
     "number": 31,
@@ -338,7 +338,7 @@ questions = [
       "c": "Hipoteca a término(Term Mortgage)",
       "d": "Hipoteca de valor neto sobre la propiedad(Home Equity Mortgage)"
     },
-    "correct": ""
+    "correct": "b"
   },
   {
     "number": 32,
@@ -349,7 +349,7 @@ questions = [
       "c": "adquiere “automáticamente” la propiedad en caso de incumplimiento por parte del deudor hipotecario.",
       "d": "retiene un gravamen sobre la propiedad"
     },
-    "correct": ""
+    "correct": "d"
   },
   {
     "number": 33,
@@ -360,7 +360,7 @@ questions = [
       "c": "Cláusula de subordinación",
       "d": "Cláusula de Extracción"
     },
-    "correct": ""
+    "correct": "a"
   },
   {
     "number": 34,
@@ -371,7 +371,7 @@ questions = [
       "c": "Satisfacción de hipoteca",
       "d": "Cláusula exculpatoria."
     },
-    "correct": ""
+    "correct": "c"
   },
   {
     "number": 35,
@@ -382,7 +382,7 @@ questions = [
       "c": "½%",
       "d": "0.0125%"
     },
-    "correct": ""
+    "correct": "a"
   },
   {
     "number": 36,
@@ -393,7 +393,7 @@ questions = [
       "c": "Cobrados por el banco para incrementar la tasa de interés",
       "d": "Ninguna de las anteriores."
     },
-    "correct": ""
+    "correct": "c"
   },
   {
     "number": 37,
@@ -404,7 +404,7 @@ questions = [
       "c": "4.5%",
       "d": "4.4%"
     },
-    "correct": ""
+    "correct": "c"
   },
   {
     "number": 38,
@@ -415,7 +415,7 @@ questions = [
       "c": "6",
       "d": "8"
     },
-    "correct": ""
+    "correct": "a"
   },
   {
     "number": 39,
@@ -426,7 +426,7 @@ questions = [
       "c": "el secretario del Departamento de Vivienda y Desarrollo Urbano.",
       "d": "el Congreso."
     },
-    "correct": ""
+    "correct": "a"
   },
   {
     "number": 40,
@@ -437,7 +437,7 @@ questions = [
       "c": "tiene un programa(Sección 234) para viviendas unifamiliares.",
       "d": "asegura los préstamos, pero no los garantiza."
     },
-    "correct": ""
+    "correct": "d"
   },
   {
     "number": 41,
@@ -448,7 +448,7 @@ questions = [
       "c": "una cláusula de liberación",
       "d": "una cláusula de aceleración"
     },
-    "correct": ""
+    "correct": "c"
   },
   {
     "number": 42,
@@ -459,7 +459,7 @@ questions = [
       "c": "el prestamista.",
       "d": "la persona que acepta pagarlos según el contrato."
     },
-    "correct": ""
+    "correct": "d"
   },
   {
     "number": 43,
@@ -470,7 +470,7 @@ questions = [
       "c": "interés anual simple.",
       "d": "interés anual más cargos financieros."
     },
-    "correct": ""
+    "correct": "d"
   },
   {
     "number": 44,
@@ -481,7 +481,7 @@ questions = [
       "c": "hipoteca de globo.",
       "d": "hipoteca de liberación."
     },
-    "correct": ""
+    "correct": "b"
   },
   {
     "number": 45,
@@ -492,7 +492,7 @@ questions = [
       "c": "reducir las tasas de interés.",
       "d": "aumentar la oferta monetaria."
     },
-    "correct": ""
+    "correct": "b"
   },
   {
     "number": 46,
@@ -503,7 +503,7 @@ questions = [
       "c": "garantiza préstamos.",
       "d": "asegura préstamos."
     },
-    "correct": ""
+    "correct": "d"
   },
   {
     "number": 47,
@@ -514,7 +514,7 @@ questions = [
       "c": "8.25%.",
       "d": "8.13%."
     },
-    "correct": ""
+    "correct": "c"
   },
   {
     "number": 48,
@@ -525,7 +525,7 @@ questions = [
       "c": "préstamo garantizado por la FHA",
       "d": "préstamo de construcción"
     },
-    "correct": ""
+    "correct": "a"
   },
   {
     "number": 49,
@@ -536,7 +536,7 @@ questions = [
       "c": "Aumenta la tasa de descuento(discount rate)",
       "d": "Aumenta los límites de reserva."
     },
-    "correct": ""
+    "correct": "a"
   },
   {
     "number": 50,
@@ -547,7 +547,7 @@ questions = [
       "c": "Banqueros",
       "d": "Abogados."
     },
-    "correct": ""
+    "correct": "c"
   },
   {
     "number": 51,
@@ -558,7 +558,7 @@ questions = [
       "c": "La que pagan los prestatarios.",
       "d": "El descuento en una hipoteca."
     },
-    "correct": ""
+    "correct": "b"
   },
   {
     "number": 52,
@@ -569,7 +569,7 @@ questions = [
       "c": "crédito al vendedor.",
       "d": "débito al comprador."
     },
-    "correct": ""
+    "correct": "a"
   },
   {
     "number": 53,
@@ -580,7 +580,7 @@ questions = [
       "c": "débito al comprador.",
       "d": "débito al vendedor."
     },
-    "correct": ""
+    "correct": "c"
   },
   {
     "number": 54,
@@ -591,7 +591,7 @@ questions = [
       "c": "$43,200",
       "d": "$43,560"
     },
-    "correct": ""
+    "correct": "b"
   },
   {
     "number": 55,
@@ -602,7 +602,7 @@ questions = [
       "c": "Como un débito al vendedor y un débito al comprador.",
       "d": "Como un crédito al vendedor y un crédito al comprador"
     },
-    "correct": ""
+    "correct": "a"
   },
   {
     "number": 56,
@@ -613,7 +613,7 @@ questions = [
       "c": "$ 1,548.25",
       "d": "$ 1,772.63"
     },
-    "correct": ""
+    "correct": "b"
   },
   {
     "number": 57,
@@ -624,7 +624,7 @@ questions = [
       "c": "Un débito al inquilino.",
       "d": "Un crédito al comprador."
     },
-    "correct": ""
+    "correct": "d"
   },
   {
     "number": 58,
@@ -635,7 +635,7 @@ questions = [
       "c": "Crédito al vendedor, débito al comprador",
       "d": "Crédito al corredor."
     },
-    "correct": ""
+    "correct": "b"
   },
   {
     "number": 59,
@@ -646,7 +646,7 @@ questions = [
       "c": "Una deducción sobre el saldo(balance) de la primera hipoteca(first mortgage)",
       "d": "Una adición al saldo de la primera hipoteca"
     },
-    "correct": ""
+    "correct": "a"
   },
   {
     "number": 60,
@@ -657,7 +657,7 @@ questions = [
       "c": "$ 339",
       "d": "$ 81"
     },
-    "correct": ""
+    "correct": "b"
   },
   {
     "number": 61,
@@ -668,7 +668,7 @@ questions = [
       "c": "$ 240 crédito al comprador;$ 360 débito al vendedor.",
       "d": "$ 360 débito al vendedor;$ 360 crédito al comprador."
     },
-    "correct": ""
+    "correct": "d"
   },
   {
     "number": 62,
@@ -679,7 +679,7 @@ questions = [
       "c": "Un poquito más de 14 acres",
       "d": "14 acres."
     },
-    "correct": ""
+    "correct": "c"
   },
   {
     "number": 63,
@@ -690,7 +690,7 @@ questions = [
       "c": "5,162.50",
       "d": "5,600.00"
     },
-    "correct": ""
+    "correct": "c"
   },
   {
     "number": 64,
@@ -701,7 +701,7 @@ questions = [
       "c": "120,000",
       "d": "226,500"
     },
-    "correct": ""
+    "correct": "b"
   },
   {
     "number": 65,
@@ -712,7 +712,7 @@ questions = [
       "c": "$ 325.44",
       "d": "$ 339"
     },
-    "correct": ""
+    "correct": "d"
   },
   {
     "number": 66,
@@ -723,7 +723,7 @@ questions = [
       "c": "$ 115,200",
       "d": "$ 144,000"
     },
-    "correct": ""
+    "correct": "d"
   },
   {
     "number": 67,
@@ -734,7 +734,7 @@ questions = [
       "c": "$8,055.68",
       "d": "$11,321.00"
     },
-    "correct": ""
+    "correct": "c"
   },
   {
     "number": 68,
@@ -745,7 +745,7 @@ questions = [
       "c": "41.0",
       "d": "4.1"
     },
-    "correct": ""
+    "correct": "a"
   },
     {
     "number": 69,
@@ -756,7 +756,7 @@ questions = [
       "c": "el enfoque de depreciación de costo",
       "d": "el enfoque de mercado o comparación de ventas"
     },
-    "correct": ""
+    "correct": "d"
   },
   {
     "number": 70,
@@ -767,7 +767,7 @@ questions = [
       "c": "costo de reemplazo.",
       "d": "costo de reproducción."
     },
-    "correct": ""
+    "correct": "a"
   },
   {
     "number": 71,
@@ -778,7 +778,7 @@ questions = [
       "c": "obsolescencia externa.",
       "d": "depreciación de componentes."
     },
-    "correct": ""
+    "correct": "d"
   },
   {
     "number": 72,
@@ -789,7 +789,7 @@ questions = [
       "c": "145.25",
       "d": "156.10"
     },
-    "correct": ""
+    "correct": "b"
   },
   {
     "number": 73,
@@ -800,7 +800,7 @@ questions = [
       "c": "Permanece constante.",
       "d": "Se estabiliza."
     },
-    "correct": ""
+    "correct": "b"
   },
   {
     "number": 74,
@@ -811,7 +811,7 @@ questions = [
       "c": "Dividiendo el ingreso operativo neto entre el precio de la propiedad.",
       "d": "Dividiendo el precio de la propiedad entre el ingreso operativo neto."
     },
-    "correct": ""
+    "correct": "c"
   },
   {
     "number": 75,
@@ -822,7 +822,7 @@ questions = [
       "c": "Sustitución.",
       "d": "Prorrateo."
     },
-    "correct": ""
+    "correct": "c"
   },
   {
     "number": 76,
@@ -833,7 +833,7 @@ questions = [
       "c": "$90,000 a$95,000",
       "d": "$100,000 a$105,000"
     },
-    "correct": ""
+    "correct": "a"
   },
   {
     "number": 77,
@@ -844,7 +844,7 @@ questions = [
       "c": "Valor de inversión",
       "d": "Valor asegurad"
     },
-    "correct": ""
+    "correct": "a"
   },
   {
     "number": 78,
@@ -855,7 +855,7 @@ questions = [
       "c": "$205,000",
       "d": "$215,000"
     },
-    "correct": ""
+    "correct": "d"
   },
   {
     "number": 79,
@@ -866,7 +866,7 @@ questions = [
       "c": "$100,000",
       "d": "$ 30,000"
     },
-    "correct": ""
+    "correct": "b"
   },
   {
     "number": 80,
@@ -877,7 +877,7 @@ questions = [
       "c": "propiedad personal y venta de madera.",
       "d": "propiedad personal y arrendamientos."
     },
-    "correct": ""
+    "correct": "a"
   },
   {
     "number": 81,
@@ -888,7 +888,7 @@ questions = [
       "c": "estado de ingresos y gastos.",
       "d": "Formulario 1040 del IRS."
     },
-    "correct": ""
+    "correct": "b"
   },
   {
     "number": 82,
@@ -899,7 +899,7 @@ questions = [
       "c": "aumenta el rendimiento del prestatario.",
       "d": "permite que una persona levante algo pesado."
     },
-    "correct": ""
+    "correct": "c"
   },
   {
     "number": 83,
@@ -910,7 +910,7 @@ questions = [
       "c": "riesgo",
       "d": "liquidez"
     },
-    "correct": ""
+    "correct": "c"
   },
   {
     "number": 84,
@@ -921,7 +921,7 @@ questions = [
       "c": "La tasa de ganancia es mayor a la tasa del préstamo.",
       "d": "La tasa de retorno es menor que la que se paga por el préstamo."
     },
-    "correct": ""
+    "correct": "c"
   },
   {
     "number": 85,
@@ -932,7 +932,7 @@ questions = [
       "c": "A mitad de año.",
       "d": "Vencidos(in arreas)."
     },
-    "correct": ""
+    "correct": "d"
   },
   {
     "number": 86,
@@ -943,7 +943,7 @@ questions = [
       "c": "No se les cobraba impuestos porque son inmunes.",
       "d": "Pagan impuestos como cualquier otra universidad privada"
     },
-    "correct": ""
+    "correct": "c"
   },
   {
     "number": 87,
@@ -954,7 +954,7 @@ questions = [
       "c": "18%",
       "d": "24%"
     },
-    "correct": ""
+    "correct": "c"
   },
   {
     "number": 88,
@@ -965,7 +965,7 @@ questions = [
       "c": "1 de marzo",
       "d": "31 de marzo"
     },
-    "correct": ""
+    "correct": "c"
   },
   {
     "number": 89,
@@ -976,18 +976,18 @@ questions = [
       "c": "$ 72,000",
       "d": "$ 84,000"
     },
-    "correct": ""
+    "correct": "b"
   },
   {
     "number": 90,
     "question": "Se desea arreglar el alcantarillado y el costo será$1,987 por casa, el condado pagará un 35% del costo. ¿Cuánto pagará el condado si son un total de 667 casas?",
     "options": {
-      "a": "378,254.35",
-      "b": "463,865.15",
-      "c": "416,754.72",
-      "d": "394,187.12"
+      "a": "$ 378,254.35",
+      "b": "$ 463,865.15",
+      "c": "$ 416,754.72",
+      "d": "$ 394,187.12"
     },
-    "correct": ""
+    "correct": "b"
   },
   {
     "number": 91,
@@ -998,18 +998,18 @@ questions = [
       "c": "Valor de tasación(appraisal value)",
       "d": "Valor residual(Salvage value)"
     },
-    "correct": ""
+    "correct": "b"
   },
   {
     "number": 92,
     "question": "¿Qué descuento puede obtener una persona que ha sido declarada legalmente invidente(legally blind)?",
     "options": {
-      "a": "$ 500 del valor de la factura de impuestos",
-      "b": "$ 500 de valor catastral",
-      "c": "$ 500 de valor impositivo",
-      "d": "$ 500 de valor de impuestos a la propiedad"
+      "a": "$ 5000 del valor de la factura de impuestos",
+      "b": "$ 5000 de valor catastral",
+      "c": "$ 5000 de valor impositivo",
+      "d": "$ 5000 de valor de impuestos a la propiedad"
     },
-    "correct": ""
+    "correct": "b"
   },
   {
     "number": 93,
@@ -1020,7 +1020,7 @@ questions = [
       "c": "80,500",
       "d": "95,000"
     },
-    "correct": ""
+    "correct": "b"
   },
   {
     "number": 94,
@@ -1031,7 +1031,7 @@ questions = [
       "c": "576,117",
       "d": "543,500"
     },
-    "correct": ""
+    "correct": "b"
   },
   {
     "number": 95,
@@ -1042,7 +1042,7 @@ questions = [
       "c": "es móvil.",
       "d": "es homogéneo."
     },
-    "correct": ""
+    "correct": "a"
   },
   {
     "number": 96,
@@ -1053,7 +1053,7 @@ questions = [
       "c": "homogeneidad",
       "d": "heterogeneidad"
     },
-    "correct": ""
+    "correct": "c"
   },
   {
     "number": 97,
@@ -1064,7 +1064,7 @@ questions = [
       "c": "variación.",
       "d": "uso no conforme(legally non conforming use)"
     },
-    "correct": ""
+    "correct": "d"
   },
   {
     "number": 98,
@@ -1075,7 +1075,7 @@ questions = [
       "c": "Importación",
       "d": "Básico"
     },
-    "correct": ""
+    "correct": "b"
   },
   {
     "number": 99,
@@ -1086,7 +1086,7 @@ questions = [
       "c": "Desarrollo de impacto estatal",
       "d": "Plan maestro."
     },
-    "correct": ""
+    "correct": "d"
   },
   {
     "number": 100,
@@ -1097,7 +1097,7 @@ questions = [
       "c": "obtener un uso no conforme",
       "d": "ningún permiso especial"
     },
-    "correct": ""
+    "correct": "b"
   }    
  
 ]
