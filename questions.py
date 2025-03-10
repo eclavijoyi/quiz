@@ -2,7 +2,7 @@ questions = [
     
     {
         "number": 1,
-        "question": "En una transacción de Bienes Raíces un comprador ofreció un reembolso para que le recomiende a un vendedor, ¿qué se puede decir de esta situación?",
+        "question": "En una transacción de Bienes Raíces un comprador ofreció un reembolso para que le recomiende a un vendor, ¿qué se puede decir de esta situación?",
         "options": {
             "a": "Es legal siempre y cuando todas las partes lo sepan con anterioridad.",
             "b": "Es ilegal según la Ley 475 F.S.",
