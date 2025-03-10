@@ -1,1105 +1,1105 @@
 questions = [
-    
   {
     "number": 1,
-    "question": "La propiedad personal permanentemente unida al terreno se convierte en un/una",
+    "question": "¿Qué es incorrecto con relación a los prestamos VA?",
     "options": {
-      "a": "cargo subsecuente.",
-      "b": "anexo.",
-      "c": "accesorio fijo.",
-      "d": "invasión."
+      "a": "El vendedor puede pagar por los gastos de cierre",
+      "b": "Hay un pago por honorarios que debe pagar el usuario como garantía del préstamo VA",
+      "c": "El vendedor debe pagar por los puntos de descuento",
+      "d": "El prestatario puede pre pagar el préstamo VA antes de la fecha de vencimiento sin penalidad."
     },
-    "correct": "c"
+    "correct": ""
   },
   {
     "number": 2,
-    "question": "Una tenencia mancomunada entre esposos significa que los bienes raíces son de propiedad de",
+    "question": "En los estados en los cuales opera la teoría del título(title theory), el prestatario o deudor(borrower):",
     "options": {
-      "a": "dos adultos que conviven.",
-      "b": "un matrimonio.",
-      "c": "solamente una persona.",
-      "d": "una familia entera."
+      "a": "transfiere el título de la propiedad al prestamista o a una tercera parte hasta que el préstamo sea pagado por completo.",
+      "b": "transfiere la posesión de la propiedad al prestamista o a una tercera parte hasta que la deuda sea pagada.",
+      "c": "Da en prenda/ empeña/ pignora(pledges) la propiedad como garantía por el préstamo.",
+      "d": "Crea una tenencia en común con el prestamista(lender)."
     },
-    "correct": "b"
+    "correct": ""
   },
   {
     "number": 3,
-    "question": "Un accesorio fijo puede ser convertido en propiedad personal por",
+    "question": "Un propietario vende su propiedad a un comprador que pide completar el precio total de la propiedad con un préstamo directo entre el propietario y el comprador (purchase money mortgage). El comprador ofrece 50,000 en certificados de acciones como garantía por el préstamo hipotecario que el propietario le estaba otorgando. Si el comprador no cumple con lo pactado. ¿Qué acción puede tomar el vendedor?",
     "options": {
-      "a": "anexo.",
-      "b": "exclusiva.",
-      "c": "separación.",
-      "d": "acreción."
+      "a": "Ir a juicio hipotecario(foreclosure) y reclamar los certificados de acciones (stock certificates)",
+      "b": "No ir a juicio hipotecario y reclamar los bonos certificados de acciones",
+      "c": "Avisar a la FREC de lo sucedido",
+      "d": "Pedir al fondo de recuperación de bienes raíces una indemnización"
     },
-    "correct": "c"
+    "correct": ""
   },
   {
     "number": 4,
-    "question": "Una hija transfirió una propiedad a su anciana madre, con la condición de que la propiedad retornaría a la hija a la muerte de la madre. La hija tiene",
+    "question": "En un préstamo VA el monto del préstamo garantizado está de acuerdo con:",
     "options": {
-      "a": "un patrimonio vitalicio.",
-      "b": "un patrimonio remanente.",
-      "c": "un patrimonio en reversión.",
-      "d": "ningún patrimonio legal."
+      "a": "El valor de la tasación(appraised value).",
+      "b": "El valor catastral(assesed value)",
+      "c": "El valor del préstamo(loan amount)",
+      "d": "El precio de venta(sale price)."
     },
-    "correct": "c"
+    "correct": ""
   },
   {
     "number": 5,
-    "question": "El documento que permite al comprador de una cooperativa ocupar una unidad es el/la",
+    "question": "El documento legal que sirve para colocar a la propiedad como garantía por una deuda se llama:",
     "options": {
-      "a": "contrato de arrendamiento",
-      "b": "contrato para escritura.",
-      "c": "contrato de alquiler propietario.",
-      "d": "escritura."
+      "a": "Pagaré(promissory note).",
+      "b": "Hipoteca(Mortgage).",
+      "c": "Título(title).",
+      "d": "Fianza."
     },
-    "correct": "c"
+    "correct": ""
   },
   {
     "number": 6,
-    "question": "¿Cuál de los siguientes es el tipo de propiedad más amplio(most comprehensive estate)?",
+    "question": "¿Cuál de las partes retiene el título de propiedad en los estados donde se aplique la teoría del título(title theory)?",
     "options": {
-      "a": "Patrimonio de por vida(Life estate)",
-      "b": "Patrimonio de dominio absoluto(Fee simple estate)",
-      "c": "Tenencia por años(Estate for years)",
-      "d": "Tenencia a voluntad(Tenancy at Will)."
+      "a": "Prestatario(Borrower)",
+      "b": "Vendedor",
+      "c": "Prestamista(Lender)",
+      "d": "Deudor."
     },
-    "correct": "b"
+    "correct": ""
   },
   {
     "number": 7,
-    "question": "Juanito compró diez cajas de tejas a una ferretería local. ¿Qué tipo de propiedad son estas tejas antes de ser instaladas?",
+    "question": "En un estado donde se aplica la teoría del gravamen(lien theory) ¿Quién conserva el título de la propiedad?",
     "options": {
-      "a": "Accesorio fijo",
-      "b": "Propiedad personal",
-      "c": "Propiedad de bienes raíces",
-      "d": "Accesorio de comercio"
+      "a": "El banco",
+      "b": "El prestamista(lender)",
+      "c": "El prestatario(borrower)",
+      "d": "El acreedor."
     },
-    "correct": "b"
+    "correct": ""
   },
   {
     "number": 8,
-    "question": "Jim, Matt y Jack fueron co-propietarios de una parcela de tierra. Matt murió y su parte del terreno se distribuyó de acuerdo a su testamento como parte de la herencia que dejó a sus herederos. ¿Qué tipo de patrimonio o tenencia tenía Matt en el terreno?",
+    "question": "¿Con qué documento se puede transferir los derechos de un contrato de una parte a otra?",
     "options": {
-      "a": "Tenencia mancomunada entre esposos(tenancy by the entiteries)",
-      "b": "Tenencia mancomunada o conjunta(joint tenancy)",
-      "c": "Tenencia en común(tenancy in common)",
-      "d": "Tenencia a voluntad(tenancy at will)."
+      "a": "Pagare(Prommissory Note)",
+      "b": "Asignación",
+      "c": "Hipoteca(Mortgage)",
+      "d": "Notario"
     },
-    "correct": "c"
+    "correct": ""
   },
   {
     "number": 9,
-    "question": "¿Qué tipo de derechos se incluyen en una propiedad que bordea un río o un curso de agua?",
+    "question": "¿Cómo se conoce a la financiación que el vendedor otorga directamente al comprador?",
     "options": {
-      "a": "Derecho alodial(allodial rights)",
-      "b": "Derechos Aluviales(alluvial rights)",
-      "c": "Derechos litorales(littoral rights).",
-      "d": "Derechos ribereños(riparian rights)."
+      "a": "Hipoteca de paquete(Package Mortgage)",
+      "b": "Hipoteca a término(Term mortgage)",
+      "c": "Hipoteca de tasa ajustable(Adjustable Rate Mortgage)",
+      "d": "Hipoteca que Garantiza el Dinero en la Compra(Purchase money Mortgage)"
     },
-    "correct": "d"
+    "correct": ""
   },
   {
     "number": 10,
-    "question": "¿Qué documento le da al comprador el derecho de ocupación de una unidad dentro de una cooperativa?",
+    "question": "¿Cuál de las siguientes es la mejor descripción del primer año de una hipoteca de tasa fija de pagos iguales?",
     "options": {
-      "a": "Tenencia a voluntad",
-      "b": "Alquiler de propietario",
-      "c": "La escritura",
-      "d": "El contrato de compra-venta"
+      "a": "Los pagos mensuales se mantienen constantes mientras que el interés consume la mayor parte de los pagos.",
+      "b": "Los primeros pagos son principalmente capital(principal)",
+      "c": "Cada mes el pago mensual se incrementa y el saldo del préstamo disminuye.",
+      "d": "Con cada pago mensual el interés aumenta y el saldo disminuye."
     },
-    "correct": "b"
+    "correct": ""
   },
   {
     "number": 11,
-    "question": "José y María son socios de una propiedad hace muchos años. José muere y María pasa a ser propietaria de la parte correspondiente a José y no sus herederos. ¿Qué tipo de tenencia tenían José y María?",
+    "question": "En una hipoteca amortizada con pagos iguales, la parte del pago mensual que reduce el saldo del préstamo(principal) es:",
     "options": {
-      "a": "Tenencia mancomunada(joint tenancy)",
-      "b": "Tenencia mancomunada entre esposos(tenancy by the entireties)",
-      "c": "Tenencia en común(tenancy in common)",
-      "d": "Tenencia a voluntad(tenancy at will)"
+      "a": "El servicio de la deuda.(pago de intereses)",
+      "b": "La amortización.",
+      "c": "El interés.",
+      "d": "El capital y el interés."
     },
-    "correct": "b"
+    "correct": ""
   },
   {
     "number": 12,
-    "question": "Otro termino para contrato de palabra o para contrato por escrito que no provee tiempo de terminación es:",
+    "question": "Una propiedad se vendió en$40,000 hace dos años, Si el precio ha subido 7% por año y han pasado dos años. ¿En cuánto ha subido el precio de esta propiedad?",
     "options": {
-      "a": "Posesión por tolerancia",
-      "b": "Tenencia en común",
-      "c": "Posesión por voluntad",
-      "d": "Tenencia en totalidad"
+      "a": "+ 5,600",
+      "b": "– 5,600",
+      "c": "+ 5,796",
+      "d": "– 5,796"
     },
-    "correct": "c"
+    "correct": ""
   },
   {
     "number": 13,
-    "question": "Una afirmación incorrecta en lo referente a propiedades:",
+    "question": "La cláusula en una hipoteca que le impide al prestamista ir contra las demás propiedades del prestatario(borrower) en el caso de que el dinero proveniente de la subasta de la propiedad(foreclosure) no sea suficiente para saldar la deuda se llama:",
     "options": {
-      "a": "Existen en diversos tamaños y formas",
-      "b": "Las propiedades son una excelente alternativa dentro del portafolio de inversiones",
-      "c": "La cantidad es material a considerar en cuanto a las diferentes formas de posesión.",
-      "d": "Proveen una variedad de derechos legales"
+      "a": "La cláusula de anulación(defeasance clause)",
+      "b": "La cláusula exculpatoria(exculpatory clause)",
+      "c": "La cláusula de conocimiento(cognovit clause)",
+      "d": "La cláusula de subordinación(subordination clause)."
     },
-    "correct": "c"
+    "correct": ""
   },
   {
     "number": 14,
-    "question": "Carolina le da a Alex una propiedad para que este la disfrute por el lapso de su vida. A la muerte de Alex la propiedad pasará a manos de Juan. ¿Cómo se llama el interés que tiene Juan sobre dicha propiedad?",
+    "question": "El que documento se especifica la tasa de interés, el monto del préstamo, las penalidades y el plazo del mismo",
     "options": {
-      "a": "patrimonio en reversión(Estate in reversión)",
-      "b": "nudo propietario “propiedad de resto”(remainder estate)",
-      "c": "patrimonio de por vida(life estate)",
-      "d": "Tenencia a voluntad(tenancy at will)."
+      "a": "Pagaré",
+      "b": "Hipoteca",
+      "c": "Contrato de compraventa",
+      "d": "Escritura"
     },
-    "correct": "b"
+    "correct": ""
   },
   {
     "number": 15,
-    "question": "Un inquilino continúa en posesión de la propiedad que alquila después de que se venciera el contrato de alquiler. ¿Qué tipo de tenencia tiene el inquilino?",
+    "question": "¿Como se determina la tasa de interés en una hipoteca de tasa ajustable(adjustable rate mortgage)?",
     "options": {
-      "a": "Tenencia por tolerancia",
-      "b": "Tenencia en común",
-      "c": "Tenencia a voluntad",
-      "d": "Tenencia por años."
+      "a": "Restando el índice más el margen.",
+      "b": "Sumando el índice más el margen.",
+      "c": "Multiplicando el índice más el margen.",
+      "d": "Dividiendo el índice más el margen."
     },
-    "correct": "a"
+    "correct": ""
   },
   {
     "number": 16,
-    "question": "Smith y Brown tienen una relación de negocio. Smith muere y Brown se queda con la parte de la propiedad y esta no pasa a los herederos. Seguramente ellos tenían:",
+    "question": "¿En cuál de las siguientes teorías se le transfiere la propiedad al prestamista?",
     "options": {
-      "a": "Tenencia en común sin derecho de supervivencia(tenancy in common without right of survivorship)",
-      "b": "Tenencia conjunta con derecho de supervivencia(Joint tenancy with right of survivorship)",
-      "c": "Tenencia por años.",
-      "d": "Tenencia en común entre esposos(Tenancy by the entireties)"
+      "a": "Gravamen(lien theory)",
+      "b": "De la posesión física de la propiedad",
+      "c": "Título(Title theory).",
+      "d": "De la registración de la escritura"
     },
-    "correct": "b"
+    "correct": ""
   },
   {
     "number": 17,
-    "question": "Entre los cuatro criterios que usa una corte para determinar si un artículo es considerado legalmente como un accesorio fijo(mueble adherido) “fixture” NO se incluye:",
+    "question": "¿Cómo se le llama al proceso completo de calificación de un cliente para un préstamo?",
     "options": {
-      "a": "Adaptación o instalación del artículo(adaptation of the article)",
-      "b": "Relación entre las partes(relationship of the parties)",
-      "c": "Intención de las partes(intent of the parties)",
-      "d": "Términos de disposición.(disposition of the article)"
+      "a": "Suscripción(Underwriting).",
+      "b": "Evaluación.",
+      "c": "Aplicación.",
+      "d": "Negociación"
     },
-    "correct": "d"
+    "correct": ""
   },
   {
     "number": 18,
-    "question": "La propiedad en bienes raíces tal como esta definido en el capítulo 475 de los estatutos de la Florida incluyen cualquier derecho o patrimonio sobre tierra y oportunidades de negocio(business enterprises). Esto NO incluye los derechos relacionados con:",
+    "question": "¿Para qué se hace la PRE-calificación de un cliente?",
     "options": {
-      "a": "inquilinos(leaseholds)",
-      "b": "minerales",
-      "c": "lotes de cementerio",
-      "d": "sub arrendamientos(sublease holds)"
+      "a": "Para saber su habilidad en el manejo del crédito y los pagos del mantenimiento de la propiedad.",
+      "b": "Para saber de cuanto es lo que quiere y puede pagar",
+      "c": "Para saber en qué vecindario quiere vivir.",
+      "d": "Para cumplir con el estatuto de fraudes."
     },
-    "correct": "c"
+    "correct": ""
   },
   {
     "number": 19,
-    "question": "¿Qué derecho(mal traducido como interés) de bienes raíces otorga la titularidad sobre la tierra?",
+    "question": "La teoría del Gravamen establece que:",
     "options": {
-      "a": "Tenencia de renovación permanente",
-      "b": "Tenencia en común",
-      "c": "Tenencia por voluntad",
-      "d": "Tenencia por años"
+      "a": "El prestatario posee el título y la propiedad y en el caso de que el deudor no pague las cuotas; el prestamista puede hacer un juicio, acelerar los pagos y vender la propiedad en una subasta.",
+      "b": "Los intereses de un prestamista son mayores que los derechos de posesión del prestatario.",
+      "c": "El prestamista tiene el título.",
+      "d": "El prestamista tiene los derechos de posesión."
     },
-    "correct": "b"
+    "correct": ""
   },
   {
     "number": 20,
-    "question": "¿Cuál es la afirmación incorrecta?",
+    "question": "Un “Purchase Money Mortgage” se define como:",
     "options": {
-      "a": "Propiedad se refiere al derecho en bienes raíces.",
-      "b": "Pleno dominio es equivalente a pleno dominio absoluto.",
-      "c": "Solo un esposo y una esposa pueden tener tenencia en común entre cónyuges.",
-      "d": "A través de un testamento, el dueño del dominio vitalicio puede disponer de la propiedad."
+      "a": "Comprar una propiedad a través de un préstamo bancario",
+      "b": "El que compra solicita una segunda hipoteca al banco",
+      "c": "El préstamo que el vendedor le hace al comprador para completar la cuota inicial o para financiar parte del precio de la propiedad.",
+      "d": "Comprar una propiedad hipotecada."
     },
-    "correct": "d"
+    "correct": ""
   },
   {
     "number": 21,
-    "question": "¿Qué estatuto de Florida obliga a entregar a los posibles compradores los reglamentos de las Asociaciones de propietarios antes de firmar el contrato de compra venta?",
+    "question": "Una hipoteca paquete(package mortgage) es un método de financiamiento que incluye:",
     "options": {
-      "a": "F.S 455",
-      "b": "F.S 475",
-      "c": "F.S 720",
-      "d": "F.S 120"
+      "a": "Mas de una propiedad",
+      "b": "Edificios, así como también el terreno",
+      "c": "Propiedad personal especificada",
+      "d": "Seguro e impuestos a la propiedad incluido en el pago mensual"
     },
-    "correct": "c"
+    "correct": ""
   },
   {
     "number": 22,
-    "question": "Con respecto a la protección de la vivienda principal contra deudas del propietario, ¿cuál de las siguientes alternativas es incorrecta?",
+    "question": "¿Cuál de los siguientes enunciados es incorrecto acerca de los prestamos FHA?",
     "options": {
-      "a": "solo es afectada por gravámenes hipotecarios",
-      "b": "para ser considerada vivienda principal la propiedad debe ser no mayor de 160 acres cuando esta está fuera de un municipio y 1/2 acre cuando la propiedad está dentro de un municipio",
-      "c": "el que dueño de la propiedad debe ser cabeza de familia",
-      "d": "la casa debe ser habitada por el propietario"
+      "a": "El préstamo FHA tiene que pagar una prima de seguro por el valor del préstamo",
+      "b": "El préstamo FHA tiene que pagar una prima de seguro por el valor de la compra.",
+      "c": "El préstamo FHA fija límites de préstamos de acuerdo a la ciudad.",
+      "d": "El préstamo FHA permite sumar los costos del cierre al monto a financiar."
     },
-    "correct": "a"
+    "correct": ""
   },
   {
     "number": 23,
-    "question": "La propiedad que pertenecía a los cónyuges antes del matrimonio es:",
+    "question": "¿Cuál de los siguientes enunciados es correcto acerca de los préstamos FHA y VA?",
     "options": {
-      "a": "Propiedad privada",
-      "b": "Propiedad personal/separada",
-      "c": "Propiedad mancomunada",
-      "d": "Propiedad en común."
+      "a": "No requieren cuota inicial.",
+      "b": "La tasa de interés está controlada por el gobierno",
+      "c": "Son emitidos por instituciones privadas(bancos, mutuales, etc.).",
+      "d": "Fijan un máximo monto de préstamo."
     },
-    "correct": "b"
+    "correct": ""
   },
   {
     "number": 24,
-    "question": "En el estado de la Florida si una pareja de esposos es co-propietaria de una propiedad en bienes raíces o si la propiedad es declarada vivienda principal y sólo uno de los cónyuges aparece en la escritura. Entonces:",
+    "question": "No es necesario para obtener un prestamos de la Administración de Veteranos VA:",
     "options": {
-      "a": "Solo uno de los cónyuges debe firmar el contrato de venta de la propiedad",
-      "b": "Solo el cónyuge que figura en la escritura del contrato de venta",
-      "c": "Cualquiera de los cónyuges puede firmar el contrato de venta",
-      "d": "Ambos cónyuges deben firmar el contrato de venta."
+      "a": "Haber servido en las fuerzas armadas de USA",
+      "b": "Haber sufrido una lesión o accidento relacionado con el servicio",
+      "c": "Tener un certificado de elegibilidad",
+      "d": "Comprar una vivienda que será ocupada por el veterano"
     },
-    "correct": "d"
+    "correct": ""
   },
   {
     "number": 25,
-    "question": "¿Para que sirven los derechos de vivienda personal?",
+    "question": "¿Cuándo el banco conserva el título de la propiedad que está financiando se llama:",
     "options": {
-      "a": "para evitar una venta forzada",
-      "b": "para evitar pagar impuestos federales.",
-      "c": "para evitar pagar el impuesto a la propiedad.",
-      "d": "para no pagar el seguro de la propiedad."
+      "a": "Teoría del gravamen(lien theory)",
+      "b": "Teoría del préstamo(Loan theory)",
+      "c": "Teoría del Título(Title theory).",
+      "d": "Ninguna de las anteriores."
     },
-    "correct": "a"
+    "correct": ""
   },
   {
     "number": 26,
-    "question": "¿Cuando un comprador está interesado en comprar una propiedad en una Asociación, que es lo primero que debe hacer?",
+    "question": "Se está vendiendo una propiedad que tiene una hipoteca en el título. Esto se puede hacer:",
     "options": {
-      "a": "Entregar una copia de los nombres de todos los propietarios y miembros de lasociación",
-      "b": "Saber si hay Valuaciones(mantenimiento) y las restricciones de la Asociación",
-      "c": "Tener una copia de la póliza de seguro del condominio",
-      "d": "Solictar un survey del complejo de apartamentos."
+      "a": "En ninguna circunstancia",
+      "b": "Siempre que la hipoteca sea mayor al precio de venta no hay ningún problema",
+      "c": "Si es que la propiedad puede liberarse de esa hipoteca en cualquier momento después de cierre de la transacción.",
+      "d": "Si es que la propiedad puede liberarse de esa hipoteca antes de la venta y por un monto menor al de la venta."
     },
-    "correct": "b"
+    "correct": ""
   },
   {
     "number": 27,
-    "question": "La tenencia mancomunada con derecho de supervivencia(joint tenancy) solo se puede crear cuando están presentes:",
+    "question": "El termino hipotecado significa en bienes raíces:",
     "options": {
-      "a": "Sucesión, Titulo, Tiempo Interés",
-      "b": "Título, Posesión, Tiempo Interés",
-      "c": "Gravamén, Tiempo, Titulo, Interés",
-      "d": "Hipoteca, Sucesión, Tiempo, Título"
+      "a": "Asumir un préstamo al momento del cierre de la transacción.",
+      "b": "Dar en garantía la propiedad, pero sin entregar el titulo o la posesión",
+      "c": "Que el prestamista es el dueño de la propiedad.",
+      "d": "Es un término que se usa en la publicidad fraudulenta."
     },
-    "correct": "b"
+    "correct": ""
   },
   {
     "number": 28,
-    "question": "En una escritura la cláusula que establece que el otorgante tenía la posesión y tiene el derecho de vender la propiedad es la cláusula de",
+    "question": "La hipoteca que cubre varios lotes de terreno y normalmente incluye la cláusula de “partial reléase” se conoce como:",
     "options": {
-      "a": "posesión.",
-      "b": "transferencia.",
-      "c": "premisas.",
-      "d": "habendum."
+      "a": "Hipoteca agrupada(Blanket mortgage)",
+      "b": "Hipoteca amortizada",
+      "c": "Hipoteca a termino",
+      "d": "Hipoteca que garantiza el dinero en la compra(purchase money mortgage)."
     },
-    "correct": "a"
+    "correct": ""
   },
   {
     "number": 29,
-    "question": "La propiedad de un bien inmueble en realidad se transfiere del otorgante al receptor cuando la escritura es",
+    "question": "En un préstamo. ¿Qué documento legal es el que contiene la tasa de interés, el monto del préstamo, la fecha de vencimiento y el cronograma de pagos?",
     "options": {
-      "a": "notariada y registrada.",
-      "b": "entregada y aceptada.",
-      "c": "firmada por el receptor y testificada.",
-      "d": "firmada por el receptor y registrada."
+      "a": "El pagare(note)",
+      "b": "La hipoteca",
+      "c": "El contrato de compraventa",
+      "d": "La escritura"
     },
-    "correct": "b"
+    "correct": ""
   },
   {
     "number": 30,
-    "question": "Una escritura debe ser reconocida(notariada)",
+    "question": "¿Por qué los préstamos sobre el valor líquido de la propiedad(home equity loan) son más populares que los otros tipos de préstamos?",
     "options": {
-      "a": "antes de ser testificada.",
-      "b": "por un abogado.",
-      "c": "para que sea válida.",
-      "d": "para que sea registrable."
+      "a": "porque ofrecen tasas de interés más bajas",
+      "b": "porque son más fáciles de obtener",
+      "c": "porque no necesitan garantía de propiedad",
+      "d": "porque están respaldados por el condado"
     },
-    "correct": "d"
+    "correct": ""
   },
   {
     "number": 31,
-    "question": "Cuando un propietario ha sido declarado mentalmente incompetente, la propiedad sería transferida mediante una",
+    "question": "¿Cuál es el tipo de hipoteca que incluye un pago grande al final de la misma en el que se incluyen la parte del capital adeudado que quedo impaga con los pagos mensuales?",
     "options": {
-      "a": "escritura de viudedad.",
-      "b": "escritura de referido.",
-      "c": "escritura de comité.",
-      "d": "escritura de representante personal."
+      "a": "Hipoteca amortizada",
+      "b": "Hipoteca parcialmente amortizada(Partially Amortized Mortgage)",
+      "c": "Hipoteca a término(Term Mortgage)",
+      "d": "Hipoteca de valor neto sobre la propiedad(Home Equity Mortgage)"
     },
-    "correct": "c"
+    "correct": ""
   },
   {
     "number": 32,
-    "question": "En una escritura, la cláusula que contiene el nombre del otorgante y la descripción legal es la",
+    "question": "En un estado donde se aplica la teoría del gravamen, el prestamista(lender)",
     "options": {
-      "a": "cláusula de habendum.",
-      "b": "cláusula de tenendum.",
-      "c": "cláusula resolutoria.",
-      "d": "cláusula de transferencia o de premisas."
+      "a": "tiene el derecho de posesión.",
+      "b": "tiene derecho sobre el cobro de cualquier alquiler.",
+      "c": "adquiere “automáticamente” la propiedad en caso de incumplimiento por parte del deudor hipotecario.",
+      "d": "retiene un gravamen sobre la propiedad"
     },
-    "correct": "d"
+    "correct": ""
   },
   {
     "number": 33,
-    "question": "Los vecinos han usado un camino “rut” que pasa por la propiedad de Jones (servidumbre por necesidad) por más de 20 años consecutivos. Este camino podría ser considerado como una servidumbre por:",
+    "question": "Un desarrollador compra 35 acres para una subdivisión. Ella decide llevar a cabo el proyecto por etapas. A fin de vender, ¿los lotes de la primera etapa de la subdivisión, que debe incluir en la hipoteca?",
     "options": {
-      "a": "Usurpación(encroachment).",
-      "b": "Dominio eminente(eminent domain)",
-      "c": "Servidumbre(easement)",
-      "d": "Prescripción(prescription)."
+      "a": "Cláusula de Liberación(Partial Release clause)",
+      "b": "Cláusula de Redención",
+      "c": "Cláusula de subordinación",
+      "d": "Cláusula de Extracción"
     },
-    "correct": "d"
+    "correct": ""
   },
   {
     "number": 34,
-    "question": "Los gravámenes por impuestos especiales están(en prioridad):",
+    "question": "A la liberación de una hipoteca también se le conoce como:",
     "options": {
-      "a": "Después de los gravámenes privados",
-      "b": "Adelante de los gravámenes privados",
-      "c": "Adelante de los gravámenes por impuestos a la propiedad.",
-      "d": "Adelante de todos los gravámenes."
+      "a": "Aceleración",
+      "b": "Sentencia deficiente",
+      "c": "Satisfacción de hipoteca",
+      "d": "Cláusula exculpatoria."
     },
-    "correct": "b"
+    "correct": ""
   },
   {
     "number": 35,
-    "question": "Una escritura válida debe:",
+    "question": "¿Cuánto es el valor de un punto?",
     "options": {
-      "a": "tener un receptor(grantee) competente mental y legalmente.",
-      "b": "ser reconocida(acknowledge) y registrada(recorded).",
-      "c": "Tener la firma de un otorgante(grantor) competente y dos testigos",
-      "d": "debe estipular el monto exacto de la compensación involucrada."
+      "a": "1/8%",
+      "b": "1.25%",
+      "c": "½%",
+      "d": "0.0125%"
     },
-    "correct": "c"
+    "correct": ""
   },
   {
     "number": 36,
-    "question": "Como pruebas que la propiedad es tuya usando una Notificación de Autenticidad(actual notice).",
+    "question": "Los puntos de descuento son:",
     "options": {
-      "a": "Registrando la escritura(deed) en los registros públicos",
-      "b": "Colocando un letrero en la entrada de la casa",
-      "c": "Colocando un aviso en el periódico por siete días",
-      "d": "Tomando posesión física de la propiedad."
+      "a": "Para reducir la tasa de interés del préstamo",
+      "b": "Los que paga el banco por pedir dinero prestado a la FED",
+      "c": "Cobrados por el banco para incrementar la tasa de interés",
+      "d": "Ninguna de las anteriores."
     },
-    "correct": "d"
+    "correct": ""
   },
   {
     "number": 37,
-    "question": "La relación completa de todas las personas que han sido propietarias de una propiedad es conocida como:",
+    "question": "Un banco le está cobrando una tasa de interés de 4% mas cuatro puntos en un préstamo hipotecario. ¿Cuál es la tasa(rendimiento) aproximado del préstamo?",
     "options": {
-      "a": "Resumen de Título(Abstract of Title).",
-      "b": "Seguro de título(title insurance)",
-      "c": "Aviso implícito(constructive notice)",
-      "d": "Cadena de Título(Chain of Title)."
+      "a": "8%",
+      "b": "7.5%",
+      "c": "4.5%",
+      "d": "4.4%"
     },
-    "correct": "d"
+    "correct": ""
   },
   {
     "number": 38,
-    "question": "El gobierno tiene el poder para aplicar regulaciones que gobiernan la zonificación y restringir el uso de una propiedad inmueble mediante:",
+    "question": "La tasa de interés cotizada en un préstamo convencional es de 12.5%, pero después de dejar un margen para el cargo por tramitación el verdadero APR es del 13%.\n¿Cuántos puntos cobra el banco por el préstamo?",
     "options": {
-      "a": "Fuerza Pública(pólice power)",
-      "b": "Dominio eminente(eminent domain)",
-      "c": "Leyes locales aprobadas por los votantes",
-      "d": "Restricciones especificadas en la escritura de la propiedad"
+      "a": "4",
+      "b": "5",
+      "c": "6",
+      "d": "8"
     },
-    "correct": "a"
+    "correct": ""
   },
   {
     "number": 39,
-    "question": "Aviso de hecho(actual notice) es:",
+    "question": "La tasa de interés de un préstamo hipotecario asegurado por la FHA es establecida por:",
     "options": {
-      "a": "Registrar una escritura en los registros públicos.",
-      "b": "Posesión de la propiedad que se puede ver y oír.",
-      "c": "De menor valor que un aviso implícito(constructive notice).",
-      "d": "La firma de los documentos de transferencia hechos por un notario."
+      "a": "el mercado.",
+      "b": "la Reserva Federal.",
+      "c": "el secretario del Departamento de Vivienda y Desarrollo Urbano.",
+      "d": "el Congreso."
     },
-    "correct": "b"
+    "correct": ""
   },
   {
     "number": 40,
-    "question": "Una escritura de renuncia(FINIQUITO) es más usada:",
+    "question": "La FHA",
     "options": {
-      "a": "Como una escritura de impuestos(tax deed)",
-      "b": "Como una manera de clarificar errores “clouds” en un título.",
-      "c": "Como una escritura de representante personal(personal representative deed).",
-      "d": "Como una escritura de guardián(guardian’s deed)."
+      "a": "garantiza los préstamos, pero no los asegura.",
+      "b": "los préstamos son concedidos por el HUD.",
+      "c": "tiene un programa(Sección 234) para viviendas unifamiliares.",
+      "d": "asegura los préstamos, pero no los garantiza."
     },
-    "correct": "b"
+    "correct": ""
   },
   {
     "number": 41,
-    "question": "El termino tomar por una compensación justa indica un caso de:",
+    "question": "Si un urbanizador compra una gran parcela de tierra y quiere desarrollar y vender una pequeña parte de ella, sería conveniente que tenga cuál de las siguientes en su hipoteca",
     "options": {
-      "a": "Dominio eminente.",
-      "b": "Usurpación.",
-      "c": "Posesión adversa",
-      "d": "Fraude"
+      "a": "una cláusula de subordinación",
+      "b": "una cláusula de prepago",
+      "c": "una cláusula de liberación",
+      "d": "una cláusula de aceleración"
     },
-    "correct": "a"
+    "correct": ""
   },
   {
     "number": 42,
-    "question": "Registrar una escritura en los registros públicos es un ejemplo de:",
+    "question": "Si hay puntos de descuento adeudados por un préstamo garantizado por la VA, éstos deben ser pagados por",
     "options": {
-      "a": "Notificación de Autenticidad(Actual Notice)",
-      "b": "Aviso Implícito(constructive notice) Notificación Sobre entendida",
-      "c": "Aviso Judicial",
-      "d": "Aviso de Gravamen."
+      "a": "el vendedor.",
+      "b": "el comprador.",
+      "c": "el prestamista.",
+      "d": "la persona que acepta pagarlos según el contrato."
     },
-    "correct": "b"
+    "correct": ""
   },
   {
     "number": 43,
-    "question": "¿Cuál de los siguientes enunciados es el VERDADERO respecto a la póliza de seguro de título del acreedor hipotecario?",
+    "question": "La tasa de porcentaje anual(APR) se compone de",
     "options": {
-      "a": "La cobertura de esta póliza es hasta el monto del préstamo hipotecario y puede ser transferible.",
-      "b": "La cobertura de esta póliza es hasta el monto del precio de compra y no es transferible.",
-      "c": "Esta póliza protege al prestamista en caso de que la propiedad sea destruida.",
-      "d": "Cubre al prestatario(deudor) en caso de que después de la subasta de la propiedad, el dinero no alcance para pagar la deuda pendiente con el prestamista."
+      "a": "interés anual.",
+      "b": "cargo por financiación.",
+      "c": "interés anual simple.",
+      "d": "interés anual más cargos financieros."
     },
-    "correct": "a"
+    "correct": ""
   },
   {
     "number": 44,
-    "question": "La transferencia real del título se produce cuando:",
+    "question": "Un préstamo que cubre varias parcelas de tierra se llama:",
     "options": {
-      "a": "Cuando lo firma el otorgante competente(grantor)",
-      "b": "Cuando la escritura es entregada y aceptada voluntariamente",
-      "c": "Cuando se firma el contrato de compra-venta",
-      "d": "Cuando se entrega el depósito de garantía"
+      "a": "hipoteca “paquete”.",
+      "b": "hipoteca agrupada(blanket mortgage).",
+      "c": "hipoteca de globo.",
+      "d": "hipoteca de liberación."
     },
-    "correct": "b"
+    "correct": ""
   },
   {
     "number": 45,
-    "question": "¿Cuál de los siguientes gravámenes tendría la prioridad a la hora de un juicio?",
+    "question": "Cuando la Reserva Federal ordena a las instituciones financieras aumentar sus reservas, sirve para",
     "options": {
-      "a": "Un gravamen(lien) por una deuda con un hospital registrado el 1 de enero 1991",
-      "b": "Un gravamen(lien) por impuestos a la propiedad registrado en enero de 1994",
-      "c": "Un gravamen por servicios de honorarios profesionales registrado el 2 de abril de 1992",
-      "d": "Un gravamen por deuda por construcción de mejoras registrado en junio de 1993"
+      "a": "aumentar la oferta de préstamos.",
+      "b": "reducir la oferta de fondos prestables.",
+      "c": "reducir las tasas de interés.",
+      "d": "aumentar la oferta monetaria."
     },
-    "correct": "b"
+    "correct": ""
   },
   {
     "number": 46,
-    "question": "¿Cuál es el procedimiento legal que utiliza el gobierno para adquirir propiedad privada para uso público?",
+    "question": "La FHA",
     "options": {
-      "a": "Dominio Eminente",
-      "b": "Confiscación",
-      "c": "Expropiación(condemnation)",
-      "d": "Acreción"
+      "a": "compra los préstamos existentes.",
+      "b": "hace préstamos.",
+      "c": "garantiza préstamos.",
+      "d": "asegura préstamos."
     },
-    "correct": "c"
+    "correct": ""
   },
   {
     "number": 47,
-    "question": "Un enunciado INCORRECTO acerca de la póliza de seguro de título es que:",
+    "question": "Si el prestamista cobra 8% de interés más 2 puntos, el rendimiento aproximado del préstamo sería",
     "options": {
-      "a": "La prima total se tiene que pagar al momento que la póliza es emitida.",
-      "b": "Cubre de los reclamos que puedan hacer terceras personas por gravámenes que no fueron registrados en los registros públicos.",
-      "c": "La póliza de seguro de título del prestamista no es transferible.",
-      "d": "La póliza de seguro de título del prestatario no es transferible."
+      "a": "9.00%.",
+      "b": "8.50%.",
+      "c": "8.25%.",
+      "d": "8.13%."
     },
-    "correct": "c"
+    "correct": ""
   },
   {
     "number": 48,
-    "question": "Una declaración formal dada por una persona a su propio albedrio ante un notario al efectuar o firmar un documento como una escritura o hipoteca se denomina:",
+    "question": "¿Qué tipo de préstamo NO requiere una cuota inicial?",
     "options": {
-      "a": "Confiscación",
-      "b": "Dominio eminente",
-      "c": "Escritura",
-      "d": "Reconocimiento(Acknowledge)"
+      "a": "préstamo garantizado por la VA",
+      "b": "préstamo convencional",
+      "c": "préstamo garantizado por la FHA",
+      "d": "préstamo de construcción"
     },
-    "correct": "d"
+    "correct": ""
   },
   {
     "number": 49,
-    "question": "¿En cuál de las cláusulas de una escritura se puede encontrar la duración de la tenencia que está siendo transferida?",
+    "question": "¿Cuál de los siguientes métodos usa la Reserva Federal(Federal Reserve System) para elevar la tasa de interés usando el mercado(market place)?",
     "options": {
-      "a": "Habendum",
-      "b": "Posesión",
-      "c": "Garantía por siempre",
-      "d": "Premisas."
+      "a": "Vende bonos",
+      "b": "Compra bonos",
+      "c": "Aumenta la tasa de descuento(discount rate)",
+      "d": "Aumenta los límites de reserva."
     },
-    "correct": "a"
+    "correct": ""
   },
   {
     "number": 50,
-    "question": "¿Qué le otorga el derecho a una compañía de tender una red de agua por la parte posterior de un terreno?",
+    "question": "Los individuos u organizaciones que originan y prestan servicios hipotecarios son conocidos como:",
     "options": {
-      "a": "una servidumbre por prescripción.",
-      "b": "una servidumbre personal(easement in gross).",
-      "c": "una servidumbre implícita.",
-      "d": "una usurpación(encroachment)."
+      "a": "Corredores de hipotecas",
+      "b": "Licenciados en bienes raíces",
+      "c": "Banqueros",
+      "d": "Abogados."
     },
-    "correct": "b"
+    "correct": ""
   },
   {
     "number": 51,
-    "question": "¿Cuáles son las tres escrituras que pueden usarse en esos casos?",
+    "question": "La tasa de descuento(discount rate) es:",
     "options": {
-      "a": "escritura de finiquito, escritura de guardián, escritura de representante personal",
-      "b": "escritura de guardián, escritura de comité, escritura de garantía general'",
-      "c": "escritura de comité, escritura de finiquito, escritura de garantía especial",
-      "d": "escritura de representante personal, escritura de tutor, escritura de comité"
+      "a": "La que pagan los prestamistas",
+      "b": "La que pagan los bancos miembros cuando le piden dinero prestado a la Reserva Federal FED.",
+      "c": "La que pagan los prestatarios.",
+      "d": "El descuento en una hipoteca."
     },
-    "correct": "d"
+    "correct": ""
   },
   {
     "number": 52,
-    "question": "Un corredor está negociando un contrato de venta de propiedad de bienes raíces entre el comprador y el vendedor. Ante esta situación el corredor:",
+    "question": "Una segunda hipoteca sobre un estado del cierre es un:",
     "options": {
-      "a": "Debe asesorar al comprador para que este reclame un resumen actualizado",
-      "b": "Debe de asesorar al vendedor para que este entregue un resumen actualizado",
-      "c": "No debe asesorar al vendedor para entregar un resumen actualizado",
-      "d": "Debe asesorar al comprador para que busque los servicios de un abogado y conseguir un seguro de título."
+      "a": "crédito al comprador.",
+      "b": "débito al vendedor.",
+      "c": "crédito al vendedor.",
+      "d": "débito al comprador."
     },
-    "correct": "d"
+    "correct": ""
   },
   {
     "number": 53,
-    "question": "¿Cuál de las cláusulas en el contrato de compra – venta de Bienes Raíces reserva el derecho en el título y no en el terreno como patrimonio remanente?",
+    "question": "Los impuestos intangibles normalmente aparecen como un:",
     "options": {
-      "a": "Cláusula de Reddendum",
-      "b": "Cláusula de posesión(seizin)",
-      "c": "Cláusula de Habendum",
-      "d": "Cláusula de Disfrute tranquilo “Quiet Enjoyment”"
+      "a": "débito al comprador y un crédito al vendedor.",
+      "b": "crédito al comprador y un débito al vendedor.",
+      "c": "débito al comprador.",
+      "d": "débito al vendedor."
     },
-    "correct": "a"
+    "correct": ""
   },
   {
     "number": 54,
-    "question": "¿Cuáles son los cuatro factores de las limitaciones gubernamentales sobre los derechos de la propiedad?",
+    "question": "El propietario de un almacén de 150 x 200 pies quiere subdividir cada una de sus cuatro plantas en depósitos de 10 x 20 pies y alquilar cada depósito por$6.00 al mes; el 20% de cada planta no se podrá utilizar debido a los ascensores, closets, baños y pasillos. ¿Cuál será el ingreso anual del propietario?",
     "options": {
-      "a": "Tenencia a voluntad, tenencia por años y tenencia por tolerancia.",
-      "b": "Poder de Policía, Dominio Eminente, Tributación, Reversión al Estado",
-      "c": "Título, Posesión, Tiempo e Interés",
-      "d": "Zonificación, Códigos de construcción, Confiscación y Variación."
+      "a": "$34,200",
+      "b": "$34,560",
+      "c": "$43,200",
+      "d": "$43,560"
     },
-    "correct": "b"
+    "correct": ""
   },
   {
     "number": 55,
-    "question": "En una escritura, las restricciones de escritura se encontrarían en la cláusula de:",
+    "question": "¿Cómo aparecería registrada una hipoteca que garantiza el dinero en la compra (purchase money mortgage) en un estado de cuenta de cierre?",
     "options": {
-      "a": "Premisas",
-      "b": "Transferencia",
-      "c": "habendum",
-      "d": "reddendum"
+      "a": "Como un crédito al comprador y un débito al vendedor.",
+      "b": "Como un crédito al vendedor y un débito al comprador.",
+      "c": "Como un débito al vendedor y un débito al comprador.",
+      "d": "Como un crédito al vendedor y un crédito al comprador"
     },
-    "correct": "c"
+    "correct": ""
   },
   {
     "number": 56,
-    "question": "Según la ley cuando tienes el\"titulo\" de la propiedad:",
+    "question": "La fecha de cierre es el 8 de junio y el dia de cierre pertenece al comprador. Los impuestos anuales a los bienes raices son$ 2,730. Utilizando el metodo de 365 dias, prorratee el monto de los impuestos debitado al vendedor.",
     "options": {
-      "a": "Tienes la garantia sobre la propiedad.",
-      "b": "Tienes la deuda sobre la propiedad.",
-      "c": "Te dan el traspaso sobre la propiedad",
-      "d": "Se sabe que eres el dueño de la propiedad."
+      "a": "$ 957.37",
+      "b": "$ 1,181.75",
+      "c": "$ 1,548.25",
+      "d": "$ 1,772.63"
     },
-    "correct": "d"
+    "correct": ""
   },
   {
     "number": 57,
-    "question": "La garantía por la cual el propietario asegura que es dueńo de la propiedad y por lo tanto puede venderla es la autorización(warrant)",
+    "question": "¿Cómo se registrará el depósito de garantía o arras(earnest money deposit) en el estado de cuenta de cierre?",
     "options": {
-      "a": "Posesión “seizin”",
-      "b": "Gravamen",
-      "c": "Placer(enjoyment)",
-      "d": "Aseguramiento adicional"
+      "a": "Un crédito al vendedor y un débito al comprador.",
+      "b": "Un crédito al inquilino.",
+      "c": "Un débito al inquilino.",
+      "d": "Un crédito al comprador."
     },
-    "correct": "a"
+    "correct": ""
   },
   {
     "number": 58,
-    "question": "En una escritura o contrato, ¿qué tipo de garantía es la que el otorgante asegura al receptor(grantee) que su propiedad estará libre de reclamos hostiles?",
+    "question": "Los alquileres se pagan normalmente por adelantado. Esta partida normalmente se registra en el estado de cuenta de cierre como",
     "options": {
-      "a": "Garantía general",
-      "b": "Garantía de disfrute tranquilo(quiet enjoyment)",
-      "c": "Garantía de Posesión",
-      "d": "Garantía de hipoteca"
+      "a": "Depósito de garantía",
+      "b": "Crédito al comprador, débito al vendedor",
+      "c": "Crédito al vendedor, débito al comprador",
+      "d": "Crédito al corredor."
     },
-    "correct": "b"
+    "correct": ""
   },
   {
     "number": 59,
-    "question": "¿Cuál de las cláusulas del contrato declara el interés por los derechos legales que se transfieren de la propiedad como un Dominio Vitalicio o Dominio por siempre?",
+    "question": "Una segunda hipoteca en el estado de cuenta de cierre(closing statement) del comprador debería ser registrado como:",
     "options": {
-      "a": "Posesión",
-      "b": "Habendum",
-      "c": "Reddendum",
-      "d": "Liberación"
+      "a": "Un crédito",
+      "b": "Un débito",
+      "c": "Una deducción sobre el saldo(balance) de la primera hipoteca(first mortgage)",
+      "d": "Una adición al saldo de la primera hipoteca"
     },
-    "correct": "b"
+    "correct": ""
   },
   {
     "number": 60,
-    "question": "¿Cuántos acres hay en lo siguiente: El noroeste 1/4 del noroeste 1/4 del suroeste ¼ del suroeste 1/4 y el suroeste 1/4 del suroeste 1/4 del noroeste 1/4 del suroeste ¼ de la Sección 27.",
+    "question": "Prorratear el interés de las partes y determinar cuánto será el crédito al comprador si la hipoteca es de$45.000, la tasa de interés es de 11% y el día del cierre 25 de junio y le pertenece al comprador",
     "options": {
-      "a": "5 acres",
-      "b": "2.5 acres",
-      "c": "1.25 acres",
-      "d": "aproximadamente 0.001 acres"
+      "a": "$ 67",
+      "b": "$ 325.44",
+      "c": "$ 339",
+      "d": "$ 81"
     },
-    "correct": "a"
+    "correct": ""
   },
   {
     "number": 61,
-    "question": "¿A cuántas millas de distancia de Tallahassee está la esquina suroeste de la Sección 31, T1N, R4E?",
+    "question": "Prorratear la renta entre las partes teniendo en cuenta los siguientes datos: Renta mensual$ 600 Día del cierre 13 de abril, el día del cierre pertenece al comprador.",
     "options": {
-      "a": "6 millas",
-      "b": "12 millas",
-      "c": "18 millas",
-      "d": "24 millas"
+      "a": "$ 360  crédito al comprador y$ 240 débito al vendedor.",
+      "b": "$ 240 débito al vendedor y $ 240 crédito al comprador.",
+      "c": "$ 240 crédito al comprador;$ 360 débito al vendedor.",
+      "d": "$ 360 débito al vendedor;$ 360 crédito al comprador."
     },
-    "correct": "c"
+    "correct": ""
   },
   {
     "number": 62,
-    "question": "Una línea de un POB que va N90° E se describiría mejor como un/una",
+    "question": "Un terreno mide 765’x 800’ ¿Cuántos acres tiene la propiedad?",
     "options": {
-      "a": "línea norte/sur",
-      "b": "línea norte",
-      "c": "línea en dirección oeste",
-      "d": "línea este/oeste"
+      "a": "11 acres",
+      "b": "Un poquito más de 11 acres",
+      "c": "Un poquito más de 14 acres",
+      "d": "14 acres."
     },
-    "correct": "d"
+    "correct": ""
   },
   {
     "number": 63,
-    "question": "¿Qué método de descripción legal debe ser utilizado cuando hay subdivisiones registradas?",
+    "question": "Se pide un prestamo de 5000 a una tasa de interés simple del 13% anual. Cuanto seria el pago del capital más el interés en 3 meses?",
     "options": {
-      "a": "método de medidas y límites",
-      "b": "Lote y manzana"+","+"Lote y Bloques"+","+"Lote y cuadras",
-      "c": "método de agrimensura del gobierno",
-      "d": "método de monumentos"
+      "a": "162.50",
+      "b": "5,000.00",
+      "c": "5,162.50",
+      "d": "5,600.00"
     },
-    "correct": "b"
+    "correct": ""
   },
   {
     "number": 64,
-    "question": "La señora Brown es propietaria de una extensión de 100 acres en el Condado de Dade. Ella desea vender 20 lotes de 21,780 pies cuadrados. ¿Cuántos acres venderá?",
+    "question": "Si una propiedad cuesta 165,000 y va a ser financiada con un prestamo equivalente al 73% del precio. ¿Cuál es la cuota inicial?",
     "options": {
-      "a": "10",
-      "b": "15",
-      "c": "17",
-      "d": "20"
+      "a": "27,000",
+      "b": "44,550",
+      "c": "120,000",
+      "d": "226,500"
     },
-    "correct": "a"
+    "correct": ""
   },
   {
     "number": 65,
-    "question": "El método más efectivo de describir una propiedad es:",
+    "question": "Prorratear el interés de las partes y determinar cuánto será el crédito al comprador si la hipoteca es de$45.000, la tasa de interés es de 11% y el día del cierre 25 de junio y le pertenece al vendedor",
     "options": {
-      "a": "El método de monumentos(monuments method).",
-      "b": "El método de metes and bounds.",
-      "c": "El método de lotes y manzanas(lot and block method)",
-      "d": "Todos los anteriores."
+      "a": "$ 67",
+      "b": "$ 81",
+      "c": "$ 325.44",
+      "d": "$ 339"
     },
-    "correct": "b"
+    "correct": ""
   },
   {
     "number": 66,
-    "question": "¿Cuál de los siguientes enunciados es el INCORRECTO cuando nos referimos a descripciones legales por el método de medición del gobierno?",
+    "question": "Un banco otorga un prestamo del 80% del precio de venta a un interés de 8%. La porción de interés pagada el primer mes es de$768. Calcular el precio de venta",
     "options": {
-      "a": "Un distrito municipal tiene 36 secciones",
-      "b": "Una sección es un cuadrado de una milla cuadrada",
-      "c": "Un acre tiene 43560 pies cuadrados",
-      "d": "Un distrito municipal tiene seis millas de área."
+      "a": "$  36,000",
+      "b": "$  72,000",
+      "c": "$ 115,200",
+      "d": "$ 144,000"
     },
-    "correct": "d"
+    "correct": ""
   },
   {
     "number": 67,
-    "question": "¿Cuál es la descripción de un municipio(sexmo) inmediatamente al Oeste de T1N R1E?",
+    "question": "¿Cuánto será el interés a pagar por un préstamo de$52,000 al 11% de interés simple en un año de 360 días, 4 meses y 27 días?",
     "options": {
-      "a": "T2N, R2E",
-      "b": "T1N, R1E",
-      "c": "T2N, R2E",
-      "d": "T1N, R1W"
+      "a": "$5,720.00",
+      "b": "$7,626.00",
+      "c": "$8,055.68",
+      "d": "$11,321.00"
     },
-    "correct": "d"
+    "correct": ""
   },
   {
     "number": 68,
-    "question": "En el sistema de agrimensura del gobierno ¿Cómo se llama a la línea que va de Norte a Sur y que pasa por Tallahassee?",
+    "question": "¿Cuánto será el interés a pagar por un préstamo de$1,230 al 8% de interés simple en un año de 360 días, cinco meses y tres días?",
     "options": {
-      "a": "Línea base",
-      "b": "Meridiano base",
-      "c": "Meridiano principal",
-      "d": "Línea principal."
+      "a": "140.22",
+      "b": "98.4",
+      "c": "41.0",
+      "d": "4.1"
     },
-    "correct": "c"
+    "correct": ""
   },
-  {
+    {
     "number": 69,
-    "question": "En el sistema de agrimensura del gobierno ¿Cómo se le llama a la línea que va de Este a Oeste y que pasa por Tallahassee?",
+    "question": "¿Qué enfoque de tasación tendría el mayor peso en la decisión final del tasador al valuar un terreno baldío?",
     "options": {
-      "a": "Meridiano base",
-      "b": "Meridiano principal",
-      "c": "Línea principal",
-      "d": "Línea base."
+      "a": "el enfoque de construcción residual",
+      "b": "el enfoque de capitalización de ingresos",
+      "c": "el enfoque de depreciación de costo",
+      "d": "el enfoque de mercado o comparación de ventas"
     },
-    "correct": "c"
+    "correct": ""
   },
   {
     "number": 70,
-    "question": "¿Qué es una sección de tierra?",
+    "question": "El precio más probable que una propiedad obtendrá en un mercado abierto y competitivo es el:",
     "options": {
-      "a": "seis millas cuadradas.",
-      "b": "una milla cuadrada.",
-      "c": "una acre de terreno.",
-      "d": "un terreno que pertenece a un grupo de dueños."
+      "a": "valor de mercado.",
+      "b": "costo.",
+      "c": "costo de reemplazo.",
+      "d": "costo de reproducción."
     },
-    "correct": "b"
+    "correct": ""
   },
   {
     "number": 71,
-    "question": "¿Cuál es el opuesto a N65°E?",
+    "question": "Los tipos básicos de depreciación NO incluyen:",
     "options": {
-      "a": "S65°W",
-      "b": "N35°W",
-      "c": "S35°E",
-      "d": "N65°E"
+      "a": "deterioro físico.",
+      "b": "obsolescencia funcional.",
+      "c": "obsolescencia externa.",
+      "d": "depreciación de componentes."
     },
-    "correct": "a"
+    "correct": ""
   },
   {
     "number": 72,
-    "question": "El señor Smith va a donar 20 acres de terreno y tiene que separar 20% para áreas comunes. Si él va a dividir el terreno restante en lotes de 8,000 p2 cada uno. ¿Cuántos lotes se podrán conseguir?(Redondee al número entero más cercano)",
+    "question": "¿Cuál es el multiplicador de alquiler bruto mensual de una casa que se vendió por $269,500 y se alquila por$2,000 al mes?",
     "options": {
-      "a": "100 lotes",
-      "b": "108 lotes",
-      "c": "87 lotes",
-      "d": "22 lotes"
+      "a": "11.23",
+      "b": "134.75",
+      "c": "145.25",
+      "d": "156.10"
     },
-    "correct": "c"
+    "correct": ""
   },
   {
     "number": 73,
-    "question": "Don es dueño del 1/4 NW de una sección, si Don vende el 1/2 W del 1/4 NW que posee. Si vende cada acre a$10 cada uno ¿Cuánto recibirá Don por la venta?",
+    "question": "Cuando la tasa de capitalización baja, el valor de la propiedad:",
     "options": {
-      "a": "$ 1,600",
-      "b": "$  800",
-      "c": "$ 1,160",
-      "d": "$  400"
+      "a": "Disminuye.",
+      "b": "Aumenta",
+      "c": "Permanece constante.",
+      "d": "Se estabiliza."
     },
-    "correct": "b"
+    "correct": ""
   },
   {
     "number": 74,
-    "question": "Don es dueño del 1/4 NW de una sección, si Don vende el 1/2 W del 1/4 NW que posee. ¿Cuántos acres le quedan?",
+    "question": "La tasa de capitalización(capitalization rate) se calcula:",
     "options": {
-      "a": "160 acres",
-      "b": "40 acres",
-      "c": "80 acres",
-      "d": "116 acres"
+      "a": "Multiplicando el valor de la propiedad por el ingreso operativo neto",
+      "b": "Multiplicando el precio de la propiedad por la depreciación",
+      "c": "Dividiendo el ingreso operativo neto entre el precio de la propiedad.",
+      "d": "Dividiendo el precio de la propiedad entre el ingreso operativo neto."
     },
-    "correct": "c"
+    "correct": ""
   },
   {
     "number": 75,
-    "question": "¿Cuánto mide el SW 1/4 del NE 1/4 del NW 1/4 del SW 1/4 del S 1/2 de la sección 20 del T3N, R3W? Dar la respuesta en pies cuadrados.",
+    "question": "En qué principio se basan los tres métodos de tasación:",
     "options": {
-      "a": "1.25 acres",
-      "b": "2.50 acres",
-      "c": "54,450 p2",
-      "d": "108,900 p2"
+      "a": "Promedio.",
+      "b": "Reconciliación.",
+      "c": "Sustitución.",
+      "d": "Prorrateo."
     },
-    "correct": "c"
+    "correct": ""
   },
   {
     "number": 76,
-    "question": "¿Cuál es la medida de cuatro acres?",
+    "question": "Al corredor Aníbal se le pide tasar la propiedad del vendedor Carlos, la propiedad en cuestión(subject property) tiene 3 habitaciones, 2 baños y un sótano(basement) a medio hacer. Si una habitación esta valorizada en$11,000, un baño en$2,500 y el sótano en$6,000 ¿Cuál será el valor de la propiedad en cuestión(subject property), teniendo en cuenta las siguientes propiedades comparables? [Detalles omitidos por extensión]",
     "options": {
-      "a": "266' x 660'",
-      "b": "264' x 660'",
-      "c": "263' x 650'",
-      "d": "243' x 640'"
+      "a": "$70,000 a$80,000",
+      "b": "$81,000 a$86,000",
+      "c": "$90,000 a$95,000",
+      "d": "$100,000 a$105,000"
     },
-    "correct": "b"
+    "correct": ""
   },
   {
     "number": 77,
-    "question": "Un listado “listing” que está en manos de más de un corredor sería un",
+    "question": "los diferentes tipos de valores ¿Cuál es el valor que está asociado con la venta de un negocio insolvente?",
     "options": {
-      "a": "un listing abierto.",
-      "b": "un listing con derecho exclusivo de venta.",
-      "c": "un listing exclusivo.",
-      "d": "un listing neto."
+      "a": "Valor de liquidación",
+      "b": "Valor de rescate",
+      "c": "Valor de inversión",
+      "d": "Valor asegurad"
     },
-    "correct": "a"
+    "correct": ""
   },
   {
     "number": 78,
-    "question": "El período de tiempo en el que se puede imponer el cumplimiento de un contrato en términos legales se rige por",
+    "question": "Una propiedad comparable se vendió recientemente en$ 210,000. Comparada con la propiedad en cuestión, la propiedad comparable está construida con mejores materiales de construcción($ 10,000) y tiene un terreno más pequeño($ 15,000). ¿Cuál será el precio de venta ajustado de la propiedad comparable?",
     "options": {
-      "a": "la Ley contra el Fraude.",
-      "b": "el Estatuto de Limitaciones.",
-      "c": "la Ley de Bienes Raíces de la Florida.",
-      "d": "el Estatuto de Terreno ganado por el receso de las aguas."
+      "a": "$188,000",
+      "b": "$203,000",
+      "c": "$205,000",
+      "d": "$215,000"
     },
-    "correct": "b"
+    "correct": ""
   },
   {
     "number": 79,
-    "question": "Cuando un comprador retira una oferta antes de que ésta sea aceptada por el vendedor, el corredor debe",
+    "question": "Un vendedor tiene una propiedad que genera$ 30,000 de ingresos brutos al año y $12,000 de gastos anuales si la tasa de capitalización es del 12%. Cuanto será el valor de mercado de esta propiedad?",
     "options": {
-      "a": "devolver el depósito al comprador.",
-      "b": "entregar el depósito al vendedor.",
-      "c": "retener el depósito en concepto de comisión.",
-      "d": "Llamar a la División de Bienes Raíces para obtener instrucciones."
+      "a": "$250,000",
+      "b": "$150,000",
+      "c": "$100,000",
+      "d": "$ 30,000"
     },
-    "correct": "a"
+    "correct": ""
   },
   {
     "number": 80,
-    "question": "Un inquilino hace una oferta oral para arrendar una casa por 2 años a$600 al mes. Esto es inexigible debido a la",
+    "question": "Los activos encontrados con el corretaje de negocios que NO se suelen encontrar en el corretaje de bienes raíces son:",
     "options": {
-      "a": "la Ley contra el Fraude.",
-      "b": "el Estatuto de Limitaciones.",
-      "c": "inexistencia de testigos.",
-      "d": "falta de un depósito provisional."
+      "a": "clientela(goodwill) y propiedad personal.",
+      "b": "propiedad personal y accesorios fijos.",
+      "c": "propiedad personal y venta de madera.",
+      "d": "propiedad personal y arrendamientos."
     },
-    "correct": "a"
+    "correct": ""
   },
   {
     "number": 81,
-    "question": "Un contrato de venta de bienes raíces válido NO requiere",
+    "question": "El estado financiero que muestra la situación de una empresa a una fecha específica es el:",
     "options": {
-      "a": "que la oferta y la aceptación sea comunicada a todas las partes.",
-      "b": "un depósito de garantía sustancial.",
-      "c": "un formulario escrito.",
-      "d": "las firmas de todas las partes."
+      "a": "estado de ganancias y pérdidas.",
+      "b": "balance general.",
+      "c": "estado de ingresos y gastos.",
+      "d": "Formulario 1040 del IRS."
     },
-    "correct": "b"
+    "correct": ""
   },
   {
     "number": 82,
-    "question": "Un licenciado representando a un comprador presenta una oferta siguiendo las órdenes de este. El vendedor acepta y firma la oferta pero no le comunican al comprador de la propiedad la aceptación de la oferta. Pasan los días y el vendedor de la propiedad le dice al licenciado que el precio de la propiedad debe ser aumentado y que se debe presentar una nueva oferta. En esta situación el licenciado debe:",
+    "question": "El apalancamiento positivo:",
     "options": {
-      "a": "Quitar las cláusulas e incorporar las nuevas",
-      "b": "Insistir en que el vendedor respete la primera oferta",
-      "c": "Preparar la nueva oferta y presentarla",
-      "d": "No debe hacer nada. La primera oferta es la que cuenta"
+      "a": "aumenta el rendimiento del prestamista.",
+      "b": "aumenta el rendimiento del préstamo a valor del prestamista.",
+      "c": "aumenta el rendimiento del prestatario.",
+      "d": "permite que una persona levante algo pesado."
     },
-    "correct": "c"
+    "correct": ""
   },
   {
     "number": 83,
-    "question": "Un propietario quiere$8,000 neto por su terreno. El propietario vendedor le ofrece al corredor una opción, el corredor acepta y compra la opción por$800. Días antes que se venza la opción el corredor encuentra una persona interesada en comprar el terreno en$9,200. ¿Cuál de las siguientes afirmaciones es la correcta?",
+    "question": "¿La posibilidad de pérdida de parte o el total de la inversión se conoce cómo?",
     "options": {
-      "a": "El corredor ha violado la ley 475.",
-      "b": "El corredor ha defraudado la confianza del vendedor",
-      "c": "El corredor después de pagar los gastos de cierre puede quedarse con la diferencia entre los$8,000 que debe darle al vendedor y los$9,200 en que vendió el terreno.",
-      "d": "La licencia del corredor puede ser suspendida o revocada."
+      "a": "Ventaja",
+      "b": "dirección",
+      "c": "riesgo",
+      "d": "liquidez"
     },
-    "correct": "c"
+    "correct": ""
   },
   {
     "number": 84,
-    "question": "El termino contraprestación(compensation) se define como:",
+    "question": "¿Cuál de las siguientes afirmaciones describe mejor el apalancamiento positivo?",
     "options": {
-      "a": "Ejecución forzosa.",
-      "b": "Acto o compensación monetaria.",
-      "c": "Posesión",
-      "d": "Contrato de compraventa"
+      "a": "Se llama así al incremento en el porcentaje cobrado por el prestamista.",
+      "b": "Es el incremento en la razón préstamo a valor inducida por el prestamista",
+      "c": "La tasa de ganancia es mayor a la tasa del préstamo.",
+      "d": "La tasa de retorno es menor que la que se paga por el préstamo."
     },
-    "correct": "b"
+    "correct": ""
   },
   {
     "number": 85,
-    "question": "El Estatuto de Limitaciones(Statute de Limitations) declara:",
+    "question": "Los impuestos a la propiedad son pagados:",
     "options": {
-      "a": "Las referencias a utilizar para cuando se viole la ley.",
-      "b": "el marco de tiempo durante el cual un contrato puede ser disputado.",
-      "c": "para tener fuerza de ley los contratos en bienes raíces deben estar por escrito.",
-      "d": "que los contratos deben ser notariados para poder ser ejecutables (enforceable)."
+      "a": "Por adelantado(in advance)",
+      "b": "A principio de año.",
+      "c": "A mitad de año.",
+      "d": "Vencidos(in arreas)."
     },
-    "correct": "b"
+    "correct": ""
   },
   {
     "number": 86,
-    "question": "¿Qué se necesita para que un contrato sea válido?",
+    "question": "¿Qué es cierto para las universidades que son propiedad del estado de Florida?",
     "options": {
-      "a": "Que sea notariado",
-      "b": "Que haya depósito de garantía",
-      "c": "Que la oferta y la aceptación sean comunicadas a cada una de las partes",
-      "d": "Que sea registrado en los registros públicos"
+      "a": "Están Exentas de impuestos",
+      "b": "Se les cobraba medio impuesto",
+      "c": "No se les cobraba impuestos porque son inmunes.",
+      "d": "Pagan impuestos como cualquier otra universidad privada"
     },
-    "correct": "c"
+    "correct": ""
   },
   {
     "number": 87,
-    "question": "¿Cuál de los siguientes no sería un remedio para el rompimiento de un contrato?",
+    "question": "¿Cuánto es el máximo porcentaje que se puede cobrar por un certificado de impuestos?",
     "options": {
-      "a": "Ejecución especifica del contrato.",
-      "b": "Demanda por compensación de daños",
-      "c": "Reclamar al fondo de Recuperación de Bienes Raíces.",
-      "d": "Juicio Civil"
+      "a": "8%",
+      "b": "12%",
+      "c": "18%",
+      "d": "24%"
     },
-    "correct": "c"
+    "correct": ""
   },
   {
     "number": 88,
-    "question": "¿Cuál es la opción correcta en cuanto a colocar un listado?",
+    "question": "Hasta que día tienen los dueños de una propiedad declarada residencia principal comprada antes del 1 de enero de 2009 para presentar su solicitud de exención de impuestos de residencia principal en Florida:",
     "options": {
-      "a": "Solo el corredor puede colocar los listados de sus asociados.",
-      "b": "Cada asociado puede colocar sus propios listados bajo el nombre de la compañía de corredor",
-      "c": "Cualquier asociado de la compañía puede colocar los listados aunque no sean los de ellos siempre que aparezcan bajo el nombre de la empresa del corredor,",
-      "d": "Cualquier asociado puede hacerlo siempre que aparezca la compañía del corredor y el nombre del asociado quien tomo el listado."
+      "a": "1 de noviembre",
+      "b": "1 de febrero",
+      "c": "1 de marzo",
+      "d": "31 de marzo"
     },
-    "correct": "c"
+    "correct": ""
   },
   {
     "number": 89,
-    "question": "El Estatuto de Fraudes requiere que los contratos de compra-venta de bienes raíces deben ser:",
+    "question": "Una propiedad paga$ 1,600 de impuestos a la propiedad por año. Si la tasa de impuestos es$ 2.5 dólares por cada$ 100. ¿Cuál será el valor catastral de la propiedad?",
     "options": {
-      "a": "Notariados",
-      "b": "Registrado",
-      "c": "Por escrito(salvo por ciertas excepciones especificas)",
-      "d": "Debe estar firmado por un testigo."
+      "a": "$ 24,000",
+      "b": "$ 64,000",
+      "c": "$ 72,000",
+      "d": "$ 84,000"
     },
-    "correct": "c"
+    "correct": ""
   },
   {
     "number": 90,
-    "question": "¿A quién se debe entregar la notificación de pinturas a base de plomo (lead paint disclosure)?",
+    "question": "Se desea arreglar el alcantarillado y el costo será$1,987 por casa, el condado pagará un 35% del costo. ¿Cuánto pagará el condado si son un total de 667 casas?",
     "options": {
-      "a": "A todas las personas que están comprando una vivienda unifamiliar",
-      "b": "A todas las personas que están comprando o alquilando una propiedad residencial.",
-      "c": "A todos los inquilinos y compradores de todas las propiedades residenciales construidas antes del año 1,978",
-      "d": "A todos los compradores de propiedades residenciales donde la propiedad será usada como residencia principal(homestead property)."
+      "a": "378,254.35",
+      "b": "463,865.15",
+      "c": "416,754.72",
+      "d": "394,187.12"
     },
-    "correct": "c"
+    "correct": ""
   },
   {
     "number": 91,
-    "question": "Un contrato de opción(opcional) es:",
+    "question": "Los impuestos a la propiedad se cobran sobre la base del:",
     "options": {
-      "a": "Un contrato bilateral.",
-      "b": "Un contrato unilateral que le da derecho a comprar una propiedad por un precio fijo y durante un periodo de tiempo específico.",
-      "c": "Contrato que no conlleva contraprestación.",
-      "d": "Contrato donde solamente debe actuar quien recibe la opción."
+      "a": "Valor de mercado(market value).",
+      "b": "Valor catastral(assesed value)",
+      "c": "Valor de tasación(appraisal value)",
+      "d": "Valor residual(Salvage value)"
     },
-    "correct": "b"
+    "correct": ""
   },
   {
     "number": 92,
-    "question": "El documento que le otorga el derecho a un corredor para colectar los depósitos de garantía es:",
+    "question": "¿Qué descuento puede obtener una persona que ha sido declarada legalmente invidente(legally blind)?",
     "options": {
-      "a": "Escritura de garantía",
-      "b": "Convenio de compra venta.",
-      "c": "Instrucciones para el cierre.",
-      "d": "Contrato de venta"
+      "a": "$ 500 del valor de la factura de impuestos",
+      "b": "$ 500 de valor catastral",
+      "c": "$ 500 de valor impositivo",
+      "d": "$ 500 de valor de impuestos a la propiedad"
     },
-    "correct": "d"
+    "correct": ""
   },
   {
     "number": 93,
-    "question": "El señor Smith lista su propiedad por tres el 15 de marzo con el corredor Brown. El 25 de marzo Smith se declara en bancarrota. El 1 de abril el corredor Brown encuentra un comprador listo, dispuesto y capaz de comprar la propiedad. Brown podría exigirle el pago de la comisión al sr. Smith?",
+    "question": "Un propietario ha vivido por 6 años en su propiedad y paga$862.50 de impuestos a la propiedad. La tasa de impuestos de la ciudad es 25 mills y la propiedad tiene ambas excepciones HOMESTEAD(25,000+ 25,000) y además$500 adicionales por viudez. ¿Cuál es el valor catastral de la propiedad?",
     "options": {
-      "a": "si, aunque la corte de bancarrota lo niegue.",
-      "b": "sí, porque había un contrato ejecutable.",
-      "c": "no, porque el contrato ejecutable quedo anulado.",
-      "d": "no, porque el corredor Brown no era un concesionario preferido."
+      "a": "34,500",
+      "b": "85,000",
+      "c": "80,500",
+      "d": "95,000"
     },
-    "correct": "c"
+    "correct": ""
   },
   {
     "number": 94,
-    "question": "Cuando el depósito es colocado en una compañía de título se debe indicar en el contrato:",
+    "question": "El valor de las propiedades en una ciudad totaliza$64’890,000. El total de las propiedades del gobierno totalizan$575,000 y las de la iglesia$346,000. Las exenciones a la propiedad suman$950,000, el impuesto es 9 mills. ¿Cuál será el ingreso que recibe la ciudad?",
     "options": {
-      "a": "Dirección, correo electrónico, teléfono de la compañía de título.",
-      "b": "Dirección, nombre y teléfono de la compañía de títulos.",
-      "c": "Nombre de la compañía de título, teléfono y número de licencia.",
-      "d": "Nombre, dirección, teléfono y pagina web de la compañía de títulos."
+      "a": "630,190",
+      "b": "567,171",
+      "c": "576,117",
+      "d": "543,500"
     },
-    "correct": "b"
+    "correct": ""
   },
   {
     "number": 95,
-    "question": "¿Que de lo siguiente no es necesario para que un contrato de compraventa sea válido?",
+    "question": "El mercado de bienes raíces",
     "options": {
-      "a": "que tenga un depósito de garantía.",
-      "b": "que sea para un propósito legal.",
-      "c": "que exista oferta y aceptación.",
-      "d": "que sea celebrado entre partes competentes(mayores de 18 años y en pleno uso de sus facultades mentales)."
+      "a": "es heterogéneo.",
+      "b": "reacciona muy rápidamente a los cambios.",
+      "c": "es móvil.",
+      "d": "es homogéneo."
     },
-    "correct": "a"
+    "correct": ""
   },
-    {
+  {
     "number": 96,
-    "question": "El vendedor asociado A y B recibe 7% de comisión respectivamente por cada propiedad que venden. El vendedor asociado B ha pactado con A repartir su comisión a medias con el vendedor asociado A. Si A vendió 8 propiedades por $60,000 cada una y B también vendió 8 propiedades por $60,000 cada una, ¿cuál será la comisión del vendedor asociado A?",
+    "question": "¿Cuál de las siguientes NO es una característica física de los bienes raíces?",
     "options": {
-      "a": "$16,800",
-      "b": "$33,600",
-      "c": "$50,400",
-      "d": "$67,200"
+      "a": "inmovilidad",
+      "b": "situs",
+      "c": "homogeneidad",
+      "d": "heterogeneidad"
     },
-    "correct": "c"
+    "correct": ""
   },
   {
     "number": 97,
-    "question": "Un comprador hace una oferta y le da tres días para responder. Al segundo día, todavía no le han contestado y quiere retirarse. ¿Qué debe hacer el corredor?",
+    "question": "En un lugar determinado había una tienda de artículos varios antes de que se produjera la modificación de las leyes de zonificación que luego impedirían su existencia. La tienda estaría autorizada a permanecer como una",
     "options": {
-      "a": "Retener el depósito al comprador",
-      "b": "Devolver el depósito al comprador",
-      "c": "Repartir el depósito entre los agentes de bienes raíces",
-      "d": "Entregar el depósito al propietario por incumplimiento"
+      "a": "excepción de dificultad.",
+      "b": "excepción de uso especial.",
+      "c": "variación.",
+      "d": "uso no conforme(legally non conforming use)"
     },
-    "correct": "b"
+    "correct": ""
   },
   {
     "number": 98,
-    "question": "Un corredor que recibe una propiedad de un vendedor y le dice que acepta $80,000, sin importar el precio por el cual se venda, ¿qué tipo de contrato deben hacer antes de vender la propiedad?",
+    "question": "Cuando una compañía busca generar sus ingresos desde dentro de una comunidad con la clientela que vive en la ciudad o vecindario es una industria de:",
     "options": {
-      "a": "Contrato de Precio Neto(Net Listing)",
-      "b": "Contrato de Listado de Agencia Exclusiva(Exclusive Agency Listing)",
-      "c": "Contrato de Derecho Exclusivo de Venta(Exclusive Right of Sale Listing)",
-      "d": "Contrato de Listado Abierto(Open Listing)"
+      "a": "Base",
+      "b": "Servicios",
+      "c": "Importación",
+      "d": "Básico"
     },
-    "correct": "a"
+    "correct": ""
   },
   {
     "number": 99,
-    "question": "Un Contrato debe ser:",
+    "question": "Un diseño que tenga el propósito de guiar el desarrollo total de una comunidad se conoce como:",
     "options": {
-      "a": "Registrado",
-      "b": "Elaborado por un abogado",
-      "c": "Escrito",
-      "d": "Firmado por 2 testigos"
+      "a": "Código de construcción.",
+      "b": "Programa de actualización.",
+      "c": "Desarrollo de impacto estatal",
+      "d": "Plan maestro."
     },
-    "correct": "c"
+    "correct": ""
   },
   {
     "number": 100,
-    "question": "El corredor de un comprador prepara una oferta de compra y esta es firmada por el comprador. Estando listo el vendedor pero sin haber aceptado aún la oferta, el vendedor le dice a su corredor que suba ligeramente el precio y cambie las condiciones de la oferta. ¿Qué debe de hacer el corredor frente a esto?",
+    "question": "Un propietario quiere construir una terraza en la parte oeste de su casa. La distancia entre su propiedad y la línea divisoria de la propiedad aledaña al lado oeste es de 15 pies. Si la terraza fuera construida la distancia se reduciría a 5 pies. Si los requerimientos locales determinan que la distancia mínima entre una propiedad y otra debe ser de un mínimo de 10 pies, que necesitaría el propietario para poder construir legalmente la terraza.",
     "options": {
-      "a": "Sacar los términos objetables de la oferta, insertar nuevos términos y hacer firmar la nueva oferta al vendedor para que todas las partes estén al tanto",
-      "b": "Sacar los términos objetables de la oferta, insertar nuevos términos y hacer firmar la nueva oferta al comprador para que todas las partes estén al tanto",
-      "c": "Preparar una contraoferta",
-      "d": "Pedirle al vendedor que respete el precio y los términos de la primera oferta"
+      "a": "obtener un permiso de uso especial",
+      "b": "obtener un acuerdo de variación de zona(variance)",
+      "c": "obtener un uso no conforme",
+      "d": "ningún permiso especial"
     },
-    "correct": "a"
-  }
+    "correct": ""
+  }    
+ 
 ]
 TOTAL_QUESTIONS = len(questions)
 PASSING_SCORE = 75  # Se requieren 75 puntos para aprobar
