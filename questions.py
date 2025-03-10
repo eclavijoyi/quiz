@@ -471,7 +471,7 @@ questions = [
       "c": "Esta póliza protege al prestamista en caso de que la propiedad sea destruida.",
       "d": "Cubre al prestatario(deudor) en caso de que después de la subasta de la propiedad, el dinero no alcance para pagar la deuda pendiente con el prestamista."
     },
-    "correct": "b"
+    "correct": "a"
   },
   {
     "number": 44,
@@ -482,7 +482,7 @@ questions = [
       "c": "Cuando se firma el contrato de compra-venta",
       "d": "Cuando se entrega el depósito de garantía"
     },
-    "correct": "a"
+    "correct": "b"
   },
   {
     "number": 45,
@@ -526,7 +526,7 @@ questions = [
       "c": "Escritura",
       "d": "Reconocimiento(Acknowledge)"
     },
-    "correct": "c"
+    "correct": "d"
   },
   {
     "number": 49,
@@ -856,7 +856,7 @@ questions = [
       "c": "la Ley de Bienes Raíces de la Florida.",
       "d": "el Estatuto de Terreno ganado por el receso de las aguas."
     },
-    "correct": ""
+    "correct": "b"
   },
   {
     "number": 79,
