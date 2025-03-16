@@ -22,7 +22,7 @@ def login_required(view):
     def wrapped_view(**kwargs):
         if "user" not in session:
             flash("Por favor inicia sesión para acceder a esta página", "error")
-            return redirect(url_for("login"))
+            return redirect(url_for("login", from_redirect=1))
         return view(**kwargs)
     return wrapped_view
 
@@ -42,6 +42,13 @@ def create_mixed_quiz():
     random.shuffle(mixed)
     return mixed
 
+# Nueva ruta principal que redirecciona automáticamente
+@app.route("/")
+def home():
+    if "user" in session:
+        return redirect(url_for("dashboard"))
+    return redirect(url_for("login"))
+
 @app.route("/login", methods=["GET", "POST"])
 def login():
     if request.method == "POST":
@@ -50,7 +57,7 @@ def login():
         
         if username in USERS and USERS[username] == password:
             session["user"] = username
-            return redirect(url_for("index"))
+            return redirect(url_for("dashboard"))
         else:
             flash("Credenciales incorrectas", "error")
     
@@ -62,9 +69,10 @@ def logout():
     flash("Has cerrado sesión correctamente", "success")
     return redirect(url_for("login"))
 
-@app.route("/")
+# Ruta del dashboard (antes era 'index')
+@app.route("/dashboard")
 @login_required
-def index():
+def dashboard():
     session.pop("quiz_id", None)  # Mantener la sesión de usuario, pero borrar datos de quiz
     return render_template("quiz_selector.html")
 
@@ -100,13 +108,13 @@ def select_quiz():
 @login_required
 def question():
     if "quiz_id" not in session:
-        return redirect(url_for("index"))
+        return redirect(url_for("dashboard"))
     
     quiz_id = session["quiz_id"]
     quiz_data = active_quizzes.get(quiz_id)
     
     if not quiz_data:
-        return redirect(url_for("index"))
+        return redirect(url_for("dashboard"))
     
     if request.method == "POST":
         # Procesar respuesta
@@ -143,13 +151,13 @@ def question():
 @login_required
 def result():
     if "quiz_id" not in session:
-        return redirect(url_for("index"))
+        return redirect(url_for("dashboard"))
     
     quiz_id = session["quiz_id"]
     quiz_data = active_quizzes.get(quiz_id)
     
     if not quiz_data:
-        return redirect(url_for("index"))
+        return redirect(url_for("dashboard"))
     
     # Calcular resultados
     score = 0
