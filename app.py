@@ -1,7 +1,8 @@
-from flask import Flask, render_template, request, redirect, url_for, session
+from flask import Flask, render_template, request, redirect, url_for, session, flash
 import time
 import random
 import uuid
+import functools
 from questions1 import questions as q1
 from questions2 import questions as q2
 from questions3 import questions as q3
@@ -9,6 +10,21 @@ from questions4 import questions as q4
 
 app = Flask(__name__)
 app.secret_key = "tu_clave_secreta_aqui"
+
+# Credenciales de usuario (en un entorno real, esto debería estar en una base de datos)
+USERS = {
+    "test": "usa2025*"
+}
+
+# Decorador para proteger rutas
+def login_required(view):
+    @functools.wraps(view)
+    def wrapped_view(**kwargs):
+        if "user" not in session:
+            flash("Por favor inicia sesión para acceder a esta página", "error")
+            return redirect(url_for("login"))
+        return view(**kwargs)
+    return wrapped_view
 
 # Almacenamiento de sesiones en el servidor
 active_quizzes = {}
@@ -26,12 +42,34 @@ def create_mixed_quiz():
     random.shuffle(mixed)
     return mixed
 
-@app.route("/")
-def index():
+@app.route("/login", methods=["GET", "POST"])
+def login():
+    if request.method == "POST":
+        username = request.form.get("username")
+        password = request.form.get("password")
+        
+        if username in USERS and USERS[username] == password:
+            session["user"] = username
+            return redirect(url_for("index"))
+        else:
+            flash("Credenciales incorrectas", "error")
+    
+    return render_template("login.html")
+
+@app.route("/logout")
+def logout():
     session.clear()
+    flash("Has cerrado sesión correctamente", "success")
+    return redirect(url_for("login"))
+
+@app.route("/")
+@login_required
+def index():
+    session.pop("quiz_id", None)  # Mantener la sesión de usuario, pero borrar datos de quiz
     return render_template("quiz_selector.html")
 
 @app.route("/select_quiz", methods=["POST"])
+@login_required
 def select_quiz():
     quiz_number = int(request.form.get("quiz_number"))
     
@@ -59,6 +97,7 @@ def select_quiz():
     return redirect(url_for("question"))
 
 @app.route("/question", methods=["GET", "POST"])
+@login_required
 def question():
     if "quiz_id" not in session:
         return redirect(url_for("index"))
@@ -101,6 +140,7 @@ def question():
     )
 
 @app.route("/result")
+@login_required
 def result():
     if "quiz_id" not in session:
         return redirect(url_for("index"))

@@ -10,6 +10,12 @@
     />
   </head>
   <body>
+    <!-- Agregar esto en la parte superior de tu archivo quiz_selector.html -->
+    <div style="text-align: right; margin-bottom: 20px">
+      <a href="{{ url_for('logout') }}"><button>Cerrar Sesión</button></a>
+    </div>
+
+    <!-- El resto de tu HTML para quiz_selector.html permanece igual -->
     <div class="container">
       <header>
         <h1>Seleccione el Quiz</h1>
