@@ -1,91 +1,161 @@
 from flask import Flask, render_template, request, redirect, url_for, session
 import time
 import random
-from questions import questions, TOTAL_QUESTIONS, PASSING_SCORE, EXAM_DURATION_SECONDS
+import uuid
+from questions1 import questions as q1
+from questions2 import questions as q2
+from questions3 import questions as q3
+from questions4 import questions as q4
 
 app = Flask(__name__)
-app.secret_key = "clave-secreta-para-sessions"  # Cambia esto por una clave segura
+app.secret_key = "tu_clave_secreta_aqui"
 
-# Ruta principal: inicia el examen en orden normal (1, 2, 3, …)
+# Almacenamiento de sesiones en el servidor
+active_quizzes = {}
+
+def create_mixed_quiz():
+    mixed = []
+    question_number = 1
+    for q_set in [q1, q2, q3, q4]:
+        shuffled = random.sample(q_set, 25)
+        for q in shuffled:
+            new_q = q.copy()
+            new_q["number"] = question_number
+            mixed.append(new_q)
+            question_number += 1
+    random.shuffle(mixed)
+    return mixed
+
 @app.route("/")
 def index():
     session.clear()
-    session["start_time"] = time.time()
-    session["answers"] = {}
-    # Orden normal: del 1 al TOTAL_QUESTIONS sin mezclar.
-    session["questions_order"] = list(range(1, TOTAL_QUESTIONS + 1))
-    return redirect(url_for("question", qnum=1))
+    return render_template("quiz_selector.html")
 
-# Ruta para activar el modo aleatorio cuando el usuario lo presione.
-@app.route("/randomize")
-def randomize():
-    session["questions_order"] = list(range(1, TOTAL_QUESTIONS + 1))
-    random.shuffle(session["questions_order"])
-    return redirect(url_for("question", qnum=1))
+@app.route("/select_quiz", methods=["POST"])
+def select_quiz():
+    quiz_number = int(request.form.get("quiz_number"))
+    
+    # Crear ID único para el quiz
+    quiz_id = str(uuid.uuid4())
+    
+    # Configurar preguntas según selección
+    if quiz_number == 5:
+        questions = create_mixed_quiz()
+    else:
+        questions = globals()[f"q{quiz_number}"]
+    
+    # Almacenar en servidor
+    active_quizzes[quiz_id] = {
+        "quiz_number": quiz_number,
+        "questions": questions,
+        "start_time": time.time(),
+        "answers": {},
+        "questions_order": random.sample(range(len(questions)), len(questions)),
+        "current_question": 0
+    }
+    
+    # Guardar solo el ID en la sesión
+    session["quiz_id"] = quiz_id
+    return redirect(url_for("question"))
 
-# Ruta que muestra cada pregunta de forma secuencial según el orden definido.
-# Se muestra también cuántas preguntas faltan.
-@app.route("/question/<int:qnum>", methods=["GET", "POST"])
-def question(qnum):
-    # Verificar si el tiempo del examen expiró.
-    elapsed = time.time() - session.get("start_time", time.time())
-    remaining = EXAM_DURATION_SECONDS - elapsed
-    if remaining <= 0:
+@app.route("/question", methods=["GET", "POST"])
+def question():
+    if "quiz_id" not in session:
+        return redirect(url_for("index"))
+    
+    quiz_id = session["quiz_id"]
+    quiz_data = active_quizzes.get(quiz_id)
+    
+    if not quiz_data:
+        return redirect(url_for("index"))
+    
+    if request.method == "POST":
+        # Procesar respuesta
+        answer = request.form.get("answer")
+        current_q_index = quiz_data["current_question"]
+        quiz_data["answers"][current_q_index] = answer
+        quiz_data["current_question"] += 1
+    
+    if quiz_data["current_question"] >= len(quiz_data["questions"]):
         return redirect(url_for("result"))
     
-    # Procesar la respuesta enviada para la pregunta actual.
-    if request.method == "POST":
-        answer = request.form.get("answer")
-        answers = session.get("answers", {})
-        # Se obtiene el número real de la pregunta según el orden (ya sea normal o aleatorio).
-        current_qnum = session.get("questions_order")[qnum - 1]
-        answers[str(current_qnum)] = answer
-        session["answers"] = answers
-        if qnum < TOTAL_QUESTIONS:
-            return redirect(url_for("question", qnum=qnum + 1))
-        else:
-            return redirect(url_for("result"))
+    # Obtener pregunta actual
+    q_index = quiz_data["questions_order"][quiz_data["current_question"]]
+    current_question = quiz_data["questions"][q_index]
+    current_question["number"] = quiz_data["current_question"] + 1
     
-    # Obtener el número real de la pregunta a mostrar.
-    real_qnum = session.get("questions_order")[qnum - 1]
-    current_question = next((q for q in questions if q["number"] == real_qnum), None)
-    if current_question is None:
-        return "Pregunta no encontrada", 404
+    # Calcular tiempo restante
+    elapsed = time.time() - quiz_data["start_time"]
+    # Si es el quiz 5 (mixto), dar 210 minutos, sino 90 minutos
+    if quiz_data["quiz_number"] == 5:
+        remaining = 12600 - elapsed  # 210 minutos (3.5 horas)
+    else:
+        remaining = 5400 - elapsed  # 90 minutos
+    
+    return render_template(
+        "question.html",
+        question=current_question,
+        remaining=int(remaining),
+        total=len(quiz_data["questions"]),
+        current=quiz_data["current_question"] + 1
+    )
 
-    # Calcular cuántas preguntas faltan para terminar el examen.
-    remaining_count = TOTAL_QUESTIONS - qnum
-
-    return render_template("question.html",
-                           question=current_question,
-                           remaining=int(remaining),
-                           remaining_count=remaining_count,
-                           total=TOTAL_QUESTIONS)
-
-# Ruta que muestra el resultado del examen, incluyendo las preguntas erróneas.
 @app.route("/result")
 def result():
-    answers = session.get("answers", {})
+    if "quiz_id" not in session:
+        return redirect(url_for("index"))
+    
+    quiz_id = session["quiz_id"]
+    quiz_data = active_quizzes.get(quiz_id)
+    
+    if not quiz_data:
+        return redirect(url_for("index"))
+    
+    # Calcular resultados
     score = 0
     errors = []
-    for q in questions:
-        q_num = str(q["number"])
-        user_ans = answers.get(q_num, None)
-        if user_ans == q["correct"]:
+    
+    for idx, q_index in enumerate(quiz_data["questions_order"]):
+        user_ans = quiz_data["answers"].get(idx)
+        question_data = quiz_data["questions"][q_index]
+
+        # Obtener la respuesta correcta con un manejo seguro
+        correct_ans = question_data.get("correct")  # Usa .get() para evitar KeyError
+
+        # Validar si correct_ans es válido
+        if correct_ans is None or correct_ans not in question_data.get("options", {}):
+            print(f"Advertencia: La pregunta {idx+1} tiene un valor 'correct' inválido: {correct_ans}")
+            continue  # Saltar esta pregunta para evitar el error
+        
+        correct_text = question_data["options"][correct_ans]
+        
+        # Si hay respuesta del usuario, obtener el texto
+        user_ans_text = question_data["options"].get(user_ans, "Sin respuesta") if user_ans else "Sin respuesta"
+
+        if user_ans == correct_ans:
             score += 1
         else:
             errors.append({
-                "number": q["number"],
-                "question": q["question"],
-                "correct_answer_key": q["correct"],
-                "correct_answer_text": q["options"][q["correct"]]
+                "number": idx + 1,
+                "question": question_data["question"],
+                "user_answer_key": user_ans,
+                "user_answer_text": user_ans_text,
+                "correct_answer_key": correct_ans,
+                "correct_answer_text": correct_text
             })
-    passed = (score >= PASSING_SCORE)
-    return render_template("result.html",
-                           score=score,
-                           total=TOTAL_QUESTIONS,
-                           passed=passed,
-                           errors=errors)
+
+    # Limpiar datos
+    del active_quizzes[quiz_id]
+    session.pop("quiz_id", None)
+
+    return render_template(
+        "result.html",
+        score=score,
+        total=len(quiz_data["questions"]),
+        passed=score >= 75,
+        errors=errors,
+        quiz_number=quiz_data["quiz_number"]
+    )
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000, debug=True)
-

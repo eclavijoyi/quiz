@@ -2,72 +2,159 @@
 <html lang="es">
   <head>
     <meta charset="UTF-8" />
-    <title>Pregunta {{ question.number }} - Simulacro de Examen</title>
+    <title>Pregunta {{ question.number }}</title>
     <style>
+      :root {
+        --primary-color: #3498db;
+        --success-color: #2ecc71;
+        --danger-color: #e74c3c;
+        --text-color: #2c3e50;
+      }
       body {
-        font-family: Arial, sans-serif;
-        margin: 20px;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        margin: 0;
+        padding: 20px;
+        background-color: #f8f9fa;
+      }
+      .header-container {
+        max-width: 800px;
+        margin: 0 auto 30px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .quiz-info {
+        background: white;
+        padding: 15px;
+        border-radius: 8px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
       }
       .timer {
-        font-weight: bold;
         font-size: 1.2em;
-        color: red;
-        margin-bottom: 20px;
+        color: var(--danger-color);
+        font-weight: 600;
       }
-      .question {
-        margin-bottom: 20px;
+      .question-card {
+        max-width: 800px;
+        margin: 0 auto;
+        background: white;
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: 0 3px 15px rgba(0, 0, 0, 0.1);
       }
-      .info {
-        margin-bottom: 20px;
+      .question-text {
+        font-size: 1.2em;
+        color: var(--text-color);
+        margin-bottom: 25px;
+        line-height: 1.5;
+      }
+      .options-container {
+        display: grid;
+        gap: 15px;
+      }
+      .option-label {
+        display: flex;
+        align-items: center;
+        padding: 15px;
+        border: 2px solid #e0e0e0;
+        border-radius: 8px;
+        transition: all 0.2s;
+        cursor: pointer;
+      }
+      .option-label:hover {
+        border-color: var(--primary-color);
+        background: #f8fbff;
+      }
+      .option-label input {
+        margin-right: 15px;
+        transform: scale(1.2);
+      }
+      .progress-bar {
+        height: 5px;
+        background: #eee;
+        border-radius: 3px;
+        margin: 20px 0;
+      }
+      .progress {
+        height: 100%;
+        background: var(--primary-color);
+        border-radius: 3px;
+        transition: width 0.3s;
+      }
+      .submit-btn {
+        display: block;
+        width: 100%;
+        padding: 15px;
+        background: var(--primary-color);
+        color: white;
+        border: none;
+        border-radius: 8px;
+        font-size: 1.1em;
+        cursor: pointer;
+        margin-top: 25px;
+        transition: background 0.2s;
+      }
+      .submit-btn:hover {
+        background: #2980b9;
       }
     </style>
   </head>
   <body>
-    <h1>Simulacro de Examen</h1>
-    <div class="timer">Tiempo restante: <span id="timer"></span></div>
-    <div class="info">
-      <p>Preguntas restantes: {{ remaining_count }}</p>
-      <!-- Botón para activar el modo aleatorio -->
-      <a href="{{ url_for('randomize') }}"
-        ><button type="button">Activar Modo Aleatorio</button></a
-      >
+    <div class="header-container">
+      <div class="quiz-info">
+        <div>Quiz {{ quiz_number }}</div>
+        <div>Pregunta {{ current }} de {{ total }}</div>
+      </div>
+      <div class="timer">
+        <span id="timer"></span>
+      </div>
     </div>
-    <div class="question">
-      <p>
-        <strong>Pregunta {{ question.number }}:</strong> {{ question.question }}
-      </p>
+
+    <div class="progress-bar">
+      <div
+        class="progress"
+        style="width: {{ (question.number / total * 100) | round }}%"
+      ></div>
+    </div>
+
+    <div class="question-card">
       <form method="POST" id="questionForm">
-        {% for key, value in question.options.items() %}
-        <label>
-          <input type="radio" name="answer" value="{{ key }}" required />
-          ({{ key.upper() }}) {{ value }} </label
-        ><br />
-        {% endfor %}
-        <br />
-        <button type="submit">
-          {% if question.number < total %}Siguiente{% else %}Finalizar{% endif
-          %}
+        <div class="question-text">{{ question.question }}</div>
+
+        <div class="options-container">
+          {% for key, value in question.options.items() %}
+          <label class="option-label">
+            <input type="radio" name="answer" value="{{ key }}" required />
+            <span>({{ key.upper() }}) {{ value }}</span>
+          </label>
+          {% endfor %}
+        </div>
+
+        <button type="submit" class="submit-btn">
+          {% if question.number < total %} Siguiente Pregunta → {% else %}
+          Finalizar Examen {% endif %}
         </button>
       </form>
     </div>
+
     <script>
       let remaining = {{ remaining }};
-      let timerDisplay = document.getElementById('timer');
-      function formatTime(seconds) {
-        let hrs = Math.floor(seconds / 3600);
-        let mins = Math.floor((seconds % 3600) / 60);
-        let secs = seconds % 60;
-        return (hrs < 10 ? "0" + hrs : hrs) + ":" + (mins < 10 ? "0" + mins : mins) + ":" + (secs < 10 ? "0" + secs : secs);
+      const updateTimer = () => {
+          const hrs = Math.floor(remaining / 3600);
+          const mins = Math.floor((remaining % 3600) / 60);
+          const secs = remaining % 60;
+          document.getElementById('timer').textContent =
+              `${hrs.toString().padStart(2, '0')}:${mins.toString().padStart(2, '0')}:${secs.toString().padStart(2, '0')}`;
+
+          if(remaining <= 0) {
+              document.getElementById('questionForm').submit();
+              return;
+          }
+          remaining--;
       }
-      timerDisplay.textContent = formatTime(remaining);
-      let countdown = setInterval(function(){
-        remaining--;
-        timerDisplay.textContent = formatTime(remaining);
-        if (remaining <= 0) {
-          clearInterval(countdown);
-          document.getElementById('questionForm').submit();
-        }
-      }, 1000);
+
+      updateTimer();
+      const timerInterval = setInterval(updateTimer, 1000);
     </script>
   </body>
 </html>

@@ -2,47 +2,76 @@
 <html lang="es">
   <head>
     <meta charset="UTF-8" />
-    <title>Resultados - Simulacro de Examen</title>
+    <title>Resultados - Quiz {{ quiz_number }}</title>
     <style>
       body {
         font-family: Arial, sans-serif;
         margin: 20px;
+        max-width: 800px;
       }
-      .result {
-        font-size: 1.2em;
-        margin-top: 20px;
+      .result-header {
+        text-align: center;
+        margin-bottom: 30px;
       }
-      .error-list {
-        margin-top: 20px;
+      .score-box {
+        background-color: #f8f9fa;
+        padding: 20px;
+        border-radius: 8px;
+        margin: 20px 0;
+      }
+      .passed {
+        color: #28a745;
+        font-weight: bold;
+      }
+      .failed {
+        color: #dc3545;
+        font-weight: bold;
+      }
+      .errors-list {
+        margin-top: 30px;
       }
       .error-item {
-        margin-bottom: 15px;
+        border: 1px solid #ddd;
+        padding: 15px;
+        margin: 10px 0;
+        border-radius: 5px;
       }
     </style>
   </head>
   <body>
-    <h1>Resultados del Examen</h1>
-    <div class="result">
-      <p><strong>Puntaje obtenido:</strong> {{ score }}/{{ total }}</p>
-      {% if passed %}
-      <p style="color: green">¡Felicidades, has aprobado!</p>
-      {% else %}
-      <p style="color: red">Lo sentimos, no has aprobado.</p>
-      {% endif %}
+    <div class="result-header">
+      <h1>Resultados del Quiz {{ quiz_number }}</h1>
+      <div class="score-box">
+        <h3>Puntaje Final: {{ score }}/{{ total }}</h3>
+        <h3 class="{% if passed %}passed{% else %}failed{% endif %}">
+          {% if passed %}¡Aprobado!{% else %}No Aprobado{% endif %}
+        </h3>
+      </div>
     </div>
+
     {% if errors %}
-    <div class="error-list">
-      <h2>Preguntas contestadas erróneamente:</h2>
-      <ul>
-        {% for error in errors %}
-        <li class="error-item">
-          <strong>Pregunta {{ error.number }}:</strong> {{ error.question }}<br />
-          <em>Respuesta correcta:</em> ({{ error.correct_answer_key | upper }})
-          {{ error.correct_answer_text }}
-        </li>
-        {% endfor %}
-      </ul>
+    <div class="errors-list">
+      <h3>Preguntas incorrectas ({{ errors|length }}):</h3>
+      {% for error in errors %}
+      <div class="error-item">
+        <p>
+          <strong>Pregunta {{ error.number }}:</strong> {{ error.question }}
+        </p>
+        <p>
+          Tu respuesta: {{ error.user_answer_text }}<br />
+          Respuesta correcta: {{ error.correct_answer_text }}
+        </p>
+      </div>
+      {% endfor %}
+    </div>
+    {% else %}
+    <div class="perfect-score">
+      <h3>¡Perfecto! Todas las respuestas correctas 🎉</h3>
     </div>
     {% endif %}
+
+    <div style="text-align: center; margin-top: 30px">
+      <a href="{{ url_for('index') }}"><button>Volver al Inicio</button></a>
+    </div>
   </body>
 </html>
