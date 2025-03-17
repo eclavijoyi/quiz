@@ -1,4 +1,5 @@
 from flask import Flask, render_template, request, redirect, url_for, session, flash
+from flask_session import Session
 import time
 import random
 import uuid
@@ -10,6 +11,13 @@ from questions4 import questions as q4
 
 app = Flask(__name__)
 app.secret_key = "tu_clave_secreta_aqui"
+
+# Configuración del sistema de archivos
+app.config["SESSION_TYPE"] = "filesystem"
+app.config["SESSION_FILE_DIR"] = "/tmp/flask_sessions"
+
+# Inicializa la extensión de sesiones
+Session(app)
 
 # Credenciales de usuario (en un entorno real, esto debería estar en una base de datos)
 USERS = {
@@ -206,4 +214,4 @@ def result():
     )
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=5000, debug=True)
+    app.run(host="0.0.0.0", port=5000, debug=False)
