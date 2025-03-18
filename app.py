@@ -1,5 +1,7 @@
 from flask import Flask, render_template, request, redirect, url_for, session, flash
 import os
+import json
+from dotenv import load_dotenv
 from flask_session import Session
 import time
 import random
@@ -9,6 +11,8 @@ from questions1 import questions as q1
 from questions2 import questions as q2
 from questions3 import questions as q3
 from questions4 import questions as q4
+
+load_dotenv()  # Cargar variables del .env
 
 app = Flask(__name__)
 app.secret_key = os.environ.get('FLASK_SECRET_KEY')
@@ -21,9 +25,9 @@ app.config["SESSION_FILE_DIR"] = "/tmp/flask_sessions"
 Session(app)
 
 # Credenciales de usuario (en un entorno real, esto debería estar en una base de datos)
-USERS = {
-    "test": "usa2025*"
-}
+users_env = os.getenv("USERS", "{}")  # Obtener la variable como string
+USERS = json.loads(users_env)  # Convertir el string en un diccionario
+
 
 # Decorador para proteger rutas
 def login_required(view):
