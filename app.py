@@ -1,4 +1,5 @@
 from flask import Flask, render_template, request, redirect, url_for, session, flash
+import os
 from flask_session import Session
 import time
 import random
@@ -10,7 +11,7 @@ from questions3 import questions as q3
 from questions4 import questions as q4
 
 app = Flask(__name__)
-app.secret_key = "tu_clave_secreta_aqui"
+app.secret_key = os.environ.get('FLASK_SECRET_KEY')
 
 # Configuración del sistema de archivos
 app.config["SESSION_TYPE"] = "filesystem"
